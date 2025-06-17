@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Computer Science student at <a href='https://www.cmu.edu/'>Carnegie Mellon University</a> 
 
