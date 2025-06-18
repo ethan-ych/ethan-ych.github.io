@@ -13,6 +13,19 @@ In these reviews, I chose to focus on how each class would fit into my (and mayb
 
 This page contains (or at least will contain) every class I took at CMU, not just limited to CS or math. If you don't see any comment on a particular course, it probably means that I don't have much to say about it. Lastly, if you have any questions about the reviews, please don't hesitate to reach out to me! I'd be glad to know someone is reading my reviews. 
 
+## Fall 2022
+
+##### 15-210 Parallel and Sequential Data Structures and Algorithms, *Frank Pfenning & Charlie Garrod*
+
+Quite possibly my least favorite core class. I've been trying to figure out why I disliked the course, and one answer I could come up with is the prescence of parallelism. First of all, for a first data structures and algorithms class, having to think about parallel complexity blurs the focus. Furthermore, the language of choice is Standard ML, likely because of parallelism. As much as I love functional programming, I don't believe a functional language is a good choice for most algorithm problems, and pseudocode in functional was comparatively unintuitive to me. 
+
+I had a much better experience in the subsequent algorithm class 15-451. I heard rumors that they are reevaluating the curriculum in the near future and personally I think 210 could use some changes. 
+
+## Summer 2022
+
+##### 18-213 Introduction to Computer Systems, *Gregory Kesden*
+
+Probably one of the most widespread CMU courses around the world. It dives deep into how a computer works under the hood and really sharpens your C progamming skills. Some of the labs really excited me, especially the ones with a leaderboard; the others I didn't quite find amusing. Allegedly, a lot of the concepts taught in this class appear in interviews for low-level/hardware-adjacent positions.
 
 ## Spring 2022
 
@@ -22,11 +35,11 @@ This page contains (or at least will contain) every class I took at CMU, not jus
 
 This is a good course in the sense that it builds you a very solid foundation in basic data structures and C programming. However, it was delivered in a rather unexciting way. 
 
-##### 15-150 Principles of Functional Programming, *Michael Erdmann and  Karl Crary*
+##### 15-150 Principles of Functional Programming, *Michael Erdmann &  Karl Crary*
 
 It is not an overstatment to say that this course decided my progression at CMU. Before taking this course, I had never heard of functional programming, but I was instantly captured by its elegance and its unique interpretation of computation. This was the first course at CMU that really challenged me intellectually, but as I got more used to "thinking functionally," I became more comfortable with the materials. 
 
-I ended up TA'd this course twice and was subsequently fed into the "programming language (PL) pipeline" as I took 312 and compilers. Let me take the chance to share my two cents on functional programming (FP): it's not the solution to everything and I don't believe we should ditch imperative and embrace functional. FP however excels in certain areas like safety and expressiveness (strong type systems/higher order functions), so perhaps a mixture of the two is the answer. 
+I ended up TAing this course twice and was subsequently fed into the "programming language (PL) pipeline" as I took 15-312 and compilers. Let me take the chance to share my two cents on functional programming (FP): it's not the solution to everything and I don't believe we should ditch imperative and embrace functional. FP however excels in certain areas like safety and expressiveness (strong type systems/higher order functions), so perhaps a mixture of the two is the answer. 
 
 ##### 70-100 Global Business
 <br>
