@@ -21,6 +21,14 @@ Quite possibly my least favorite core class. I've been trying to figure out why 
 
 I had a much better experience in the subsequent algorithm class 15-451. I heard rumors that they are reevaluating the curriculum in the near future and personally I think 210 could use some changes. 
 
+##### 15-251 Great Theoretical Ideas in Computer Science, *Anıl Ada*
+
+>Computer science is no more about computers than astronomy is about telescopes. -- <cite>Edsger Dijkstra</cite>
+
+This quote is both the motivation and the most important takeaway of 251. Computer science isn't really about digital computers or programming - it's about understanding how we can systematically and mechanically process information to solve problems. Digital computers are just one tool for carrying out these processes, and programming is one way to describe them. 251 introduces the basics of decidibility, complexity and some algorithms of theoretical interests in a challenging but managable way, making it one of my favorite core classes. 
+
+Anıl is a great lecturer and an enthusatic educator, which definitely contributed to my current passion for CS theory. I feel like theory is underappreicated by most CS students since it's "obsure" and "useless", but in my opinion it is not only fundamental but also fascinating to study. (I do want to point out that Dijkstra's quote shouldn't be taken at face value in modern age since now most of the field of computer science is intertwined with digitial computers, however it is a nice summary of what the core of computer science is)
+
 ## Summer 2022
 
 ##### 18-213 Introduction to Computer Systems, *Gregory Kesden*
