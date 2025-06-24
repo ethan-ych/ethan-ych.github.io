@@ -29,6 +29,14 @@ This quote is both the motivation and the most important takeaway of 251. Comput
 
 Anıl is a great lecturer and an enthusatic educator, which definitely contributed to my current passion for CS theory. I feel like theory is underappreciated by most CS students since it's "obsure" and "useless", but in my opinion it is not only fundamental but also fascinating to study. (I do want to point out that Dijkstra's quote shouldn't be taken at face value in modern age since now most of the field of computer science is intertwined with digitial computers, however it is a nice summary of what the core of computer science is)
 
+##### 21-241 Matrices and Linear Transformation, *Noha Abdelghany*
+
+To be totally honest, I missed most of the lectures since they started at 9 am and instead watched recording of MIT's linear algebra class. I ended up doing fine in the class but I didn't feel like I developed a solid understanding of the material, and I'm still regretting not putting in more effort. Linear algebra is crucial for computer science, espeically in CS theory. Machine learning is a well-known example; you can also look into quantum computing and spectral graph theory. Make sure you pay attention in this class!
+
+##### 21-295 Putnam Seminar, *Po-Shen Loh*
+
+I took it becuase the wonderful Po-Shen Loh teaches it. Po-Shen Loh might be the most well-known CMU professor worldwide and it's for a good reason: it's hard not to be infected by his enthusiasm for math. This seminar prepares students for the Putnam competition, which is infamously challenging: it is scored out of 120 points and the median is often 0 or 1. Even if you're not sure about competition math, as long as you enjoy math, I highly recommend taking this class since it's a low-commitment way to interact with Po-Shen Loh and try some fun problems. 
+
 ## Summer 2022
 
 ##### 18-213 Introduction to Computer Systems, *Gregory Kesden*
