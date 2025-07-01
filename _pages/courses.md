@@ -13,6 +13,28 @@ In these reviews, I chose to focus on how each class would fit into my (and mayb
 
 This page contains (or at least will contain) every class I took at CMU, not just limited to CS or math. If you don't see any comment on a particular course, it probably means that I don't have much to say about it. Lastly, if you have any questions about the reviews, please don't hesitate to reach out to me! I'd be glad to know someone is reading my reviews. 
 
+## Spring 2023
+
+##### 15-330 Introduction to Computer Security, *Lujo Bauer*
+
+This course has three major components: software exploit (213 attack lab on steroids), cryptography, and web exploit. It's interesting that these three components are drastically different, with software exploit being very low level, cryptography being very math heavy, and web exploit kind of being its own thing. Overall it's a standard CS class: moderate difficulty, teaches somewhat interesting material. 
+
+I took this class because I thought I would be interested in computer security but I didn't fall in love with it afterward. Ironically, this class made me realize how much I missed 251-style content and thus turned me on to theory. I would say definitely take this class if you think you might be interested in security, and even if you don't, knowing basic security principles won't ever hurt you as a CS student. 
+
+##### 21-266 Vector Calculus for Computer Scientists, *Clive Newstead*
+
+I wasn't really interested in higher dimensional calculus and I didn't like the fact that this class was calculation-based and hence required proficiency on top of just understanding. Not really its fault for being the class that comes after Calc 2, but I would've chosen the easier counterpart 21-259 to fulfill the requirement if I could choose again. 
+
+##### 76-270 Writing for the Professions
+
+##### 80-100 Introduction to Philosophy
+
+I'm a person that would randomly think about philosophical questions so I thoroughly enjoyed the chance to study philosophy systematically. This class covered some classic questions in philosophy: how do we define morality? How do we obtain knowledge? What is the mind? I was able to scratch the itch by getting answers (or at least ideas; answers are rare in philosophy) to questions that I thought about but couldn't figure out on my own. 
+
+I need to mention that Prof. Smith is a fantastic philsophy teacher. He is knowledge, kind, and knows how to guide students through puzzling concepts. Also, he has a master's degree in physics! During one class, he used the theory of relativity to illustrate how Bayesian epistemology suggests we can only increase our confidence in a claim by observing evidence. When a student asked, "Doesn't theory of relativity HAVE TO be true? What other theory explains everything so perfectly?" He immediately brought three other theories consistent with the same observations. I was truly amazed to see that depth of knowledge from a philosophy professor.
+
+This class requires a non-trival amount of reading and writing for a gen-ed but I thought it was both fun and rewarding. I highly recommend this class, especially with Prof. Smith. 
+
 ## Fall 2022
 
 ##### 15-210 Parallel and Sequential Data Structures and Algorithms, *Frank Pfenning & Charlie Garrod*
@@ -27,15 +49,17 @@ I had a much better experience in the subsequent algorithm class 15-451. I heard
 
 This quote is both the motivation and the most important takeaway of 251. Computer science isn't really about digital computers or programming - it's about understanding how we can systematically and mechanically process information to solve problems. Digital computers are just one tool for carrying out these processes, and programming is one way to describe them. 251 introduces the basics of decidibility, complexity and some algorithms of theoretical interests in a challenging but manageable way, making it one of my favorite core classes. 
 
-Anıl is a great lecturer and an enthusatic educator, which definitely contributed to my current passion for CS theory. I feel like theory is underappreciated by most CS students since it's "obsure" and "useless", but in my opinion it is not only fundamental but also fascinating to study. (I do want to point out that Dijkstra's quote shouldn't be taken at face value in modern age since now most of the field of computer science is intertwined with digitial computers, however it is a nice summary of what the core of computer science is)
+Anıl is a great lecturer and an enthusatic educator, which definitely contributed to my current passion for CS theory. I feel like theory is underappreciated by most CS students since it's "obsure" and "useless", but in my opinion it is not only fundamental but also fascinating to study. (I do want to point out that Dijkstra's quote shouldn't be taken at face value in modern age since now most of the field of computer science is intertwined with digital computers, however it is a nice summary of what the core of computer science is)
 
 ##### 21-241 Matrices and Linear Transformation, *Noha Abdelghany*
 
-To be totally honest, I missed most of the lectures since they started at 9 am and instead watched recording of MIT's linear algebra class. I ended up doing fine in the class but I didn't feel like I developed a solid understanding of the material, and I'm still regretting not putting in more effort. Linear algebra is crucial for computer science, espeically in CS theory. Machine learning is a well-known example; you can also look into quantum computing and spectral graph theory. Make sure you pay attention in this class!
+To be totally honest, I missed most of the lectures since they started at 9 am and instead watched recording of MIT's linear algebra class. I ended up doing fine in the class but I didn't feel like I developed a solid understanding of the material, and I'm still regretting not putting in more effort. Linear algebra is crucial for computer science, especially in CS theory. Machine learning is a well-known example; you can also look into quantum computing and spectral graph theory. Make sure you pay attention in this class!
 
 ##### 21-295 Putnam Seminar, *Po-Shen Loh*
 
-I took it becuase the wonderful Po-Shen Loh teaches it. Po-Shen Loh might be the most well-known CMU professor worldwide and it's for a good reason: it's hard not to be infected by his enthusiasm for math. This seminar prepares students for the Putnam competition, which is infamously challenging: it is scored out of 120 points and the median is often 0 or 1. Even if you're not sure about competition math, as long as you enjoy math, I highly recommend taking this class since it's a low-commitment way to interact with Po-Shen Loh and try some fun problems. 
+I took it because the wonderful Po-Shen Loh teaches it. Po-Shen Loh might be the most well-known CMU professor worldwide and it's for a good reason: it's hard not to be infected by his enthusiasm for math. This seminar prepares students for the Putnam competition, which is infamously challenging: it is scored out of 120 points and the median is often 0 or 1. Even if you're not sure about competition math, as long as you enjoy math, I highly recommend taking this class since it's a low-commitment way to interact with Po-Shen Loh and try some fun problems. 
+
+##### 57-149 Basic Harmony I
 
 ## Summer 2022
 
@@ -64,7 +88,7 @@ I ended up TAing this course twice and was subsequently fed into the "programmin
 
 ##### 18-100 Introduction to Electrical and Computer Engineering, *Jimmy Zhu*
 
-I started out as an ECE major when I entered CMU which is why I took this class. Since I then switched majors, I didn't really get to use anything I learned from this class. However, it ended up completing the "missing piece" in my CS education: CMU CS doesn't require their students to take any hardware class, so if it wasn't for this class, I likely wouldn't know how a digital computer functions down to transistors level. 
+I started out as an ECE major when I entered CMU which is why I took this class. Since I then switched majors, I didn't really get to use anything I learned from this class. However, it ended up completing the "missing piece" in my CS education: CMU CS doesn't require their students to take any hardware class, so if it wasn't for this class, I likely wouldn't know how a digital computer functions down to the transistor level. 
 
 ##### 21-122 Integration and Approximation, *Lihan Wang*
 
