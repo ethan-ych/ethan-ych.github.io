@@ -68,19 +68,19 @@ This class requires a non-trival amount of reading and writing for a gen-ed but 
 
 Quite possibly my least favorite core class. I've been trying to figure out why I disliked the course, and one answer I could come up with is the presence of parallelism. First of all, for a first data structures and algorithms class, having to think about parallel complexity blurs the focus. Furthermore, the language of choice is Standard ML, likely because of parallelism. As much as I love functional programming, I don't believe a functional language is a good choice for most algorithm problems, and pseudocode in functional was comparatively unintuitive to me. 
 
-I had a much better experience in the subsequent algorithm class 15-451. I heard rumors that they are reevaluating the curriculum in the near future and personally I think 210 could use some changes. 
+I had a much better experience in the subsequent algorithm class 15-451. I heard rumors that they are reevaluating the curriculum in the near future and personally I think 210 could use some changes.
 
 ##### 15-251 Great Theoretical Ideas in Computer Science, *Anıl Ada*
 
 >Computer science is no more about computers than astronomy is about telescopes. -- <cite>Edsger Dijkstra</cite>
 
-This quote is both the motivation and the most important takeaway of 251. Computer science isn't really about digital computers or programming - it's about understanding how we can systematically and mechanically process information to solve problems. Digital computers are just one tool for carrying out these processes, and programming is one way to describe them. 251 introduces the basics of decidibility, complexity and some algorithms of theoretical interests in a challenging but manageable way, making it one of my favorite core classes. 
+This quote is both the motivation and the most important takeaway of 251. Computer science isn't really about digital computers or programming - it's about understanding how we can systematically and mechanically process information to solve problems. Digital computers are just one tool for carrying out these processes, and programming is one way to describe them. 251 introduces the basics of decidability, complexity, and some algorithms of theoretical interest in a challenging but manageable way, making it one of my favorite core classes.
 
-Anıl is a great lecturer and an enthusatic educator, which definitely contributed to my current passion for CS theory. I feel like theory is underappreciated by most CS students since it's "obsure" and "useless", but in my opinion it is not only fundamental but also fascinating to study. (I do want to point out that Dijkstra's quote shouldn't be taken at face value in modern age since now most of the field of computer science is intertwined with digital computers, however it is a nice summary of what the core of computer science is)
+Anıl is a great lecturer and an enthusiastic educator, which definitely contributed to my current passion for CS theory. I feel like theory is underappreciated by most CS students since it's "obscure" and "useless," but in my opinion, it is not only fundamental but also fascinating to study. (I do want to point out that Dijkstra's quote shouldn't be taken at face value in the modern age since now most of the field of computer science is intertwined with digital computers; however, it is a nice summary of what the core of computer science is.)
 
 ##### 21-241 Matrices and Linear Transformation, *Noha Abdelghany*
 
-To be totally honest, I missed most of the lectures since they started at 9 am and instead watched recording of MIT's linear algebra class. I ended up doing fine in the class but I didn't feel like I developed a solid understanding of the material, and I'm still regretting not putting in more effort. Linear algebra is crucial for computer science, especially in CS theory. Machine learning is a well-known example; you can also look into quantum computing and spectral graph theory. Make sure you pay attention in this class!
+To be totally honest, I missed most of the lectures since they started at 9 am and instead watched recordings of MIT's linear algebra class. I ended up doing fine in the class but I didn't feel like I developed a solid understanding of the material, and I'm still regretting not putting in more effort. Linear algebra is crucial for computer science, especially in CS theory. Machine learning is a well-known example; you can also look into quantum computing and spectral graph theory. Make sure you pay attention in this class!
 
 ##### 21-295 Putnam Seminar, *Po-Shen Loh*
 
