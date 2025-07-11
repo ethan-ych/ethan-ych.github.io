@@ -17,15 +17,28 @@ This page contains (or at least will contain) every class I took at CMU, not jus
 
 ##### 11-485 Introduction to Deep Learning, *Bhiksha Raj*
 
-By FAR my least favorite class in undergrad. Yes, you can potentially learn a ton from this course, but there are just so many things about it that make taking it a frustrating experience. 
+By far my least favorite class in undergrad. You can potentially learn a ton from this course, but there are just so many things about it that make taking it a frustrating experience. 
 
-This course aims to give you a comprehensive overview of the field of deep learning, by introducing notable architectures including CNN, RNN, and all the way to the celebrated transformer architecture. It covers every architecture in great detail and on top of that requires you to train your own models on given datasets, for tasks like image recongition or speech to text transcription. 
+This course aims to give you a comprehensive overview of the field of deep learning, by introducing notable architectures including CNN, RNN, and all the way to the celebrated transformer architecture. It covers every architecture in great detail and on top of that requires you to train your own models on given datasets, for tasks like image recognition or speech to text transcription. 
 
-My biggest problem with this course is that it advertises itself as an intro class. Yes, in theory, you don't need any deep learning, or even machine learning background to pass every quiz and finish every homework. However, without proper context or previous exposure, you can easily get lost given how dense each lecture is: almost every lecture's slide deck has 100+ pages in pdf format. Much of the motivation and crucial concepts are quickly brushed through, and the sheer amount of material makes it hard to recover once you fall behind.
+My biggest issue with this course is that it advertises itself as an intro class. Yes, in theory, you don't need any deep learning, or even machine learning background to pass every quiz and finish every homework. However, without proper context or previous exposure, you can easily get lost given how dense each lecture is: almost every lecture's slide deck has 100+ pages in pdf format. Much of the motivation and crucial concepts are quickly brushed through, and the sheer amount of material makes it hard to recover once you fall behind.
 
-Another complaint I have is the disconnection between the lecture and the homework. While the lecture explains the underlying theory, the homework requires you to build and train your own model with PyTorch. I get that the idea of introducing both theory and hands-on experience is appealing, but it also means that students have to spend a huge amount of time outside of class to build the required skillset. This is not even accounting for the time-consuming nature of model training. 
+Something else that bothers me is the disconnection between the lecture and the homework. While the lecture explains the underlying theory, the homework requires you to build and train your own model with PyTorch. I get that the idea of introducing both theory and hands-on experience is appealing, but it also means that students have to spend a huge amount of time outside of class to build the required skillset. This is not even accounting for the time-consuming and uncertain nature of model training. 
 
-In conclusion, I believe you can learn a tremendous amount if you have the proper background and are willing to put in the time, but otherwise, this course can easily be overwhelming and bring distress. Becuase of this class, I stayed away from ML for the rest of the course of my undergrad. 
+In conclusion, I believe you can learn a tremendous amount if you have the proper background and are willing to put in the time, but otherwise, this course can easily be overwhelming and bring distress. Because of this class, I stayed away from ML for the rest of my undergrad.
+
+##### 15-354 Computational Discrete Math, *Klaus Sutner*
+
+After deciding to get involved in CS theory, I found this class from the list of electives that count for the <a href='http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/scsconcentrations/#algorithmsandcomplexitytextcontainer'>theory concentration</a>. Computational Discrete Math (CDM) introduces interesting topics that are hard to find elsewhere, but it probably isn't the best 251 follow-up course, for the reasons I'll get into later. 
+
+CDM covers topics like models of computation (primitive recursion/register machine), advanced automata theory, and different mathmatical concepts, including logic, algebra, and iterations, from a computational standpoint. You would be able to learn some cool computational facts and how various fields of mathematics play a role in the world of computation. 
+
+Klaus has been teaching theory at CMU for a long time and CDM is his signature class. He is extremely knowledgable and humorous in his own way so I really enjoyed the lectures. His teaching style is kind of a hit or miss though since I've heard people reacting differently to his lectures. 
+
+On to why I said you should think twice before picking this class as your first non-introductory theory class. The biggest reason is this class is more of a "introducing topics Klaus finds amusing" class: it deviates quite a lot from the mainstream theory topics. Check out other CMU theory professors' research interests to get an idea of the active research areas, and you will likely find very little overlap with what CDM covers. Furthermore, as described earlier, Klaus frequently touches upon other mathematical fields like logic, algebra, and even analysis, and I was definietely not equipped with proper knowledge to fully appreicate the material. 
+
+If you find yourself interested in theory, I would probably recommend going straight to 451 and 455 and then start taking grad level theory classes. However, if you're mathematically tumare and wish to explore the less beaten path in theory, CDM won't disappoint you. 
+
 
 ## Spring 2023
 
