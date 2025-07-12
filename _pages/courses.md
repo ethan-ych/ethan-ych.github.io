@@ -9,7 +9,7 @@ toc:
     levels: 2
 toc_label: Jump to Semester
 ---
-In these reviews, I chose to focus on how each class would fit into my (and maybe your) Computer Science education, rather than giving advice on how to succeed in the course. I think CMU has a unique curriculum in the sense that it exposes you to many fundamental areas of the field, and I hope this guide can help you take advantage of that. It is worth noting that I wrote all these reviews after completing undergrad, so I was able to evaulate these courses with a fuller picture. 
+In these reviews, I chose to focus on how each class would fit into my (and maybe your) Computer Science education, rather than giving advice on how to succeed in the course. I think CMU has a unique curriculum in the sense that it exposes you to many fundamental areas of the field, and I hope this guide can help you take advantage of that. It is worth noting that I wrote all these reviews after completing undergrad, so I was able to evaluate these courses with a fuller picture. 
 
 This page contains (or at least will contain) every class I took at CMU, not just limited to CS or math. If you don't see any comment on a particular course, it probably means that I don't have much to say about it. Lastly, if you have any questions about the reviews, please don't hesitate to reach out to me! I'd be glad to know someone is reading my reviews. 
 
@@ -31,14 +31,23 @@ In conclusion, I believe you can learn a tremendous amount if you have the prope
 
 After deciding to get involved in CS theory, I found this class from the list of electives that count for the <a href='http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/scsconcentrations/#algorithmsandcomplexitytextcontainer'>theory concentration</a>. Computational Discrete Math (CDM) introduces interesting topics that are hard to find elsewhere, but it probably isn't the best 251 follow-up course, for the reasons I'll get into later. 
 
-CDM covers topics like models of computation (primitive recursion/register machine), advanced automata theory, and different mathmatical concepts, including logic and algebra, from a computational standpoint. You would be able to learn some cool computational facts and how various fields of mathematics play a role in the world of computation. 
+CDM covers topics like models of computation (primitive recursion/register machine), advanced automata theory, and different mathematical concepts, including first-order logic and abstract algebra, from a computational standpoint. You would be able to learn some cool computational facts and how various fields of mathematics play a role in the world of computation. 
 
-Klaus has been teaching theory at CMU for a long time and CDM is his signature class. He is extremely knowledgable and humorous in his own way so I really enjoyed the lectures. His teaching style is kind of a hit or miss though since I've heard people reacting differently to his lectures. 
+Klaus has been teaching theory at CMU for a long time and CDM is his signature class. He is extremely knowledgeable and humorous in his own way so I really enjoyed the lectures. His teaching style is kind of a hit or miss though since I've heard people reacting differently to his lectures. 
 
-On to why I said you should think twice before picking this class as your first non-introductory theory class. The biggest reason is this class is more of a "introducing topics Klaus finds amusing" class: it deviates quite a lot from the mainstream theory topics. Check out other CMU theory professors' research interests to get an idea of the active research areas, and you will likely find very little overlap with what CDM covers. Furthermore, as described earlier, Klaus frequently touches upon other mathematical fields like logic, algebra, and even analysis, and I was definietely not equipped with proper knowledge to fully appreicate the material. 
+On to why I said you should think twice before picking this class as your first non-introductory theory class. The biggest reason is this class is more of a "introducing topics Klaus finds amusing" class: it deviates quite a lot from the mainstream theory topics. Check out other CMU theory professors' research interests to get an idea of the active research areas, and you will likely find very little overlap with what CDM covers. Furthermore, as described earlier, Klaus frequently touches upon other mathematical fields like logic, algebra, and even analysis, and I was definitely not equipped with proper knowledge to fully appreciate the material. 
 
 If you find yourself interested in theory, I would probably recommend going straight to 451 and 455 and then start taking grad level theory classes. However, if you're mathematically mature and wish to explore the less beaten path in theory, CDM won't disappoint you. 
 
+##### 21-301 Combinatorics, *Alan Frieze*
+
+You just have to take combinatorics if you're a CS student that's also doing math, right? I practically had no idea what combinatorics entails beyond counting before taking this class, so some of the topics like probabilistic and linear algebraic methods were quite eye-opening to me. We also covered other notable topics like Ramsey theory and Polya theory of counting. (Beware the content may vary depending on the instructor)
+
+I personally wish the class had traded some of its breadth for depth to give us more time to absorb the material. Most of the topics only consisted of one or two lectures so some of them felt rushed. I didn't get to use any of the advanced techniques I learned in this class in subsequent studies (except elementary Ramsey theory), but I did become much more confident in basic counting. 
+
+##### 85-241 Social Psychology, *Chante Cox-Boyd*
+
+I chose this class for one of my gen-ed categories, and it ended up being one of my favorite gen-eds. The best part is that the content is closely related to your everyday life, as you will likely realize a lot of your thoughts or behaviors can be explained by ideas like self-sabotage, reactance theory, or mere exposure effects. Prof. Cox-Boyd is also an engaging lecturer so I enjoyed going to class. My only gripe is that the grade distribution and grading in general were quite frustrating; otherwise it is a fun and relevant choice of gen-ed. 
 
 ## Spring 2023
 
@@ -58,9 +67,9 @@ I wasn't really interested in higher dimensional calculus and I didn't like the 
 
 I'm a person that would randomly think about philosophical questions so I thoroughly enjoyed the chance to study philosophy systematically. This class covered some classic questions in philosophy: how do we define morality? How do we obtain knowledge? What is the mind? I was able to scratch the itch by getting answers (or at least ideas; answers are rare in philosophy) to questions that I thought about but couldn't figure out on my own. 
 
-I need to mention that Prof. Smith is a fantastic philsophy teacher. He is knowledgable, kind, and knows how to guide students through puzzling concepts. Also, he has a master's degree in physics! During one class, he used the theory of relativity to illustrate how Bayesian epistemology suggests we can only increase our confidence in a claim by observing evidence. When a student asked, "Doesn't theory of relativity HAVE TO be true? What other theory explains everything so perfectly?" He immediately brought up three other theories consistent with the same observations. It was truly amazing to see that depth of knowledge from a philosophy professor.
+I need to mention that Prof. Smith is a fantastic philosophy teacher. He is knowledgable, kind, and knows how to guide students through puzzling concepts. Also, he has a master's degree in physics! During one class, he used the theory of relativity to illustrate how Bayesian epistemology suggests we can only increase our confidence in a claim by observing evidence. When a student asked, "Doesn't theory of relativity HAVE TO be true? What other theory explains everything so perfectly?" He immediately brought up three other theories consistent with the same observations. It was truly amazing to see that depth of knowledge from a philosophy professor.
 
-This class requires a non-trival amount of reading and writing for a gen-ed but I thought it was both fun and rewarding. I highly recommend this class, especially with Prof. Smith. 
+This class requires a non-trivial amount of reading and writing for a gen-ed but I thought it was both fun and rewarding. I highly recommend this class, especially with Prof. Smith. 
 
 ## Fall 2022
 
