@@ -13,11 +13,49 @@ In these reviews, I chose to focus on how each class would fit into my (and mayb
 
 This page contains (or at least will contain) every class I took at CMU, not just limited to CS or math. If you don't see any comment on a particular course, it probably means that I don't have much to say about it. Lastly, if you have any questions about the reviews, please don't hesitate to reach out to me! I'd be glad to know someone is reading my reviews. 
 
+## Spring 2024
+
+##### 15-259 Probability and Computing, *Mor Harchol-Balter & Weina Wang*
+
+Probability and Computing (PnC) has long been one of CMU's star classes because of its connection between well, probability and computing. It however went through a major curriculum change between 2023 and 2024 and lost most of its coverage on the computing part - but overall it's definitely still a class worth taking. 
+
+I had to drop PnC in Spring '23 because I had too much on my plate. Back then, PnC introduced not just basic probability but also advanced tail bounds, randomized algorithms and even Markov Chains. Now it is essentially broken down into two classes 15259 and 15359, and 259 only consists of basic probability and some amount of statistics and system simulation. The workload became much, much more manageable but that also means you'll need to spend two semesters to witness the advanced stuff. 
+
+Why is it still a class worth taking then? That's because it's very well-structured and well-taught. The homework problems are carefully designed and selected, and both Mor and Weina are fantastic teachers that are able to explain complex concepts clearly. This class is more challenging than other probability electives offered in the stats department but you'll likely learn much more. 
+
+(PnC is also known for giving out Citadel-sponsored candies to students that answer questions, not necessarily correctly, in lecture. Clearly this is meant to encourage students to participate in class, but I noticed it ended up being the same few students answering most of the questions. Personally I feel like this might discourage other students that are not able to absorb materials as quickly.)
+
+##### 15-411 Compiler Design, *Jan Hoffmann*
+
+Compilers is so speical because you and a partner essentially need to write a C0 (a type-safe subset of C) to x86 compiler from scratch. As far as I know, very few, if any, compilers courses elsewhere require such a major accomplishment. On top of that, you're expected to implement common optimaztions, and you will be graded based on the output code's performance. 
+
+You will be designing and implementing every component of the compiler, including the lexer, parser, typechecker, intermediate representation translator, code generator, and finally the register allocator. You're allowed to use a generator for lexer and parser (which does NOT trivialize lexing and parsing, since you still need to write the rules), and everything else you only get a barebone starter code. 
+
+The entire project is split into 6 labs, and your compiler is supposed to support more language functionality incrementally: basic arithmetics, conditionals and loops, function calls, and eventually memory allocation. Lab 5 is optimization and Lab 6 is extra things you want to add. The lectures will teach you the theoretical knowledge you need for implementing each component, but practice often differs from theory, so you'll need to figure things out on the fly. 
+
+Did I mention that most teams write their compilers in OCaml? In my semester, the course recommended either OCaml or Rust. Funcitonal languages (and Rust which is multi-paradigm) with their algebraic datatype and recursion-friendly nature make them good at what writing a compiler requires. As someone who loves funcitonal languages, I was glad to witness how they are used in a large, real-world project. I am however also curious what it's like to write a compiler in, say C++. 
+
+What are some reasons why you should learn about compiler design? Personally I'll give three. First, compilers are the translator between how humans think and how machines think. I think knowledge at this level of abstraction is fundamental to a computer science student. Second, compilers is a great example of how different areas in computer science work together to create a great product. You have programming language theory in the frontend (parsing/typechecking), system programming in the backend (x86 generation), and finally algorithms for optimization (e.g. graph theory for register allocation). Lastly, very few other courses give you the freedom to design a system at this scale. Indirectly, you'll learn a lot about teamwork and how to evaluate and compare different solutions. 
+
+If you've read this far and believe you want to take this class, here's a full disclosure: this class doesn't just have a huge amount of workload but its debugging experience can be grueling. The language specification has a million details, assembly language is naturally messy (seg faults!), and most importantly is what I call "higher-order debugging." You are trying to find a bug in your code that produces a bug in its output code, and it's TRICKY. Once I spent a week looking for a bug only to find out that my partner overwrote one register that was spare in earlier labs. 
+
+Overall, this class does a great job teaching you how a compiler works and it gave me confidence in my ability to implement a large codebase. It does still have room for improvement: I personally find the deduction for failed test cases too punishing, and I wish we had received more feedback on our design choices. Having written so much, I'll let you decide if this class is right for you. One way or another, it'll probably be a core memory of your time studying CS at CMU. 
+
+##### 33-115 Physics for Future Presidents, *Markus Deserno*
+
+This class was meant to be my filler class that required minimal effort and kept my full-time status while I was taking Compilers. Surprisingly, this class became one of my favorite non-technical classes at CMU (well, physics is technical, but this is more of a popular science course). The name of the course might sound confusing and here's the explanation: it aims to teach students the physics that a president would need to know, i.e. high level knowledge in areas relevant to the society. 
+
+More specifically, here are some topics that this class covers: energy, nuclear science, waves, and climate change. Technicality-wise, it only goes as deep as needed for students to understand its application in real life, and while I already knew over half of the content, the other half was really intriguing. The most memorable part was the survey of basic nuclear science and its relevant history, starting from what is radioactivity to how the chain reaction was weaponized. 
+
+I must also mention that Prof. Deserno is an engaging lecturer and a professor that really cares about students' learning, and I was glad to be able to have some meaningful discussions with him. The bottom line is, unless you're already a physics enthusiast, you'll likely learn a lot of new things and have some of your misconception corrected - so take this class if you want to learn some fun physics without much extra workload!
+
+##### 84-275 Comparative Politics
+
 ## Fall 2023
 
 ##### 11-485 Introduction to Deep Learning, *Bhiksha Raj*
 
-By far my least favorite class in undergrad. You can potentially learn a ton from this course, but there are just so many things about it that make taking it a frustrating experience. 
+By far my least favorite class in undergrad. Don't get me wrong, it can be a course that teaches you a lot, but there are just so many things about it that make taking it a frustrating experience. 
 
 This course aims to give you a comprehensive overview of the field of deep learning, by introducing notable architectures including CNN, RNN, and all the way to the celebrated transformer architecture. It covers every architecture in great detail and on top of that requires you to train your own models on given datasets, for tasks like image recognition or speech to text transcription. 
 
