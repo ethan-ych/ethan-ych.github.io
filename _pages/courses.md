@@ -15,13 +15,35 @@ This page contains (or at least will contain) every class I took at CMU, not jus
 
 *Disclaimer: These reviews are entirely based on my own experiences and opinions. Other students may have very different perspectives on the same courses, so take my thoughts as just one viewpoint among many.*
 
+## Fall 2024
+
+##### 15-312 Foundations of Programming Languages, *Bob Harper*
+
+As Karl said in my 150 lecture, this course doesn't just take you through the zoo of programming languages while pointing to one and saying "Look! That programming language has a long nose! Hahaha." 312 introduces you to the formalization of programming languages and how we can use it to prove properties of a given language. It also shows you how theoretical studies on types can illuminate language design. 
+
+You will start from a small statically-typed, functional language with limited expressions, to bigger languages that can be dynamically-typed or imperative, and eventually a language that supports concurrency. Typically, half of the homework will be induction proof on language properties and the other half will be writing an interpreter. You will quite possibly be lost during the lectures at first but the homework will solidify your understanding.
+
+You should consider taking the course with Bob. Not only because he's a respected researcher in programming language theory (PLT) and wrote the textbook, but because of his unparalleled passion for the field. He has strong opinions on many mainstream languages and it was refreshing to hear his critque from a type-theoretic standpoint.
+
+I do need to note that after taking this class, I still didn't feel like I had a comprehensive or intuitive understanding of PLT, mainly due to how abstract the course was (which also therefore felt disconnected to the real-world discussion on programming languages). I hope to combat this by reading a textbook and/or taking more classes in PL. 
+
+##### 15-459 Undergraduate Quantum Computation, *Ryan O'Donnell*
+
+Let me preface the review with one of Ryan's ending remarks on the course, "Quantum computing is like a DLC on classical computing!" This is indeed true if you think about it: the discovery of quantum physics allows us to (in principle) perform computation that we never could with just classical bits. However, reality is often disappointing: spoiler alert, quantum computing might not be as powerful as you think or hear. I won't elaborate more on this so you can find out yourself in the course. 
+
+Keep in mind that this is a theory course so it abstracts away all the physical realization and just assumes we have access to as many stable quantum bits (qubits) as we need. With qubits, we can build a model of computation that is based on linear algebra and feels drastically different from our familiar classical system. 
+
+Since we're dealing with a new model of computation, much of the course felt like learning the basic operations and memorizing the "tricks" that quantum algorithms pull to achieve the desired results. A typical introduction goes like this: we can get the result if we assume we can compute *A*, and we can compute *A* if we can do *B* by manipulating qubits, which requires a subroutine *C*... Maybe this is inevitable when teaching quantum computing, but I did have fewer aha moments compared to other theory classes. 
+
+The math behind the theory is still interesting and I wish I had spent more time on this class (which I couldn't thanks to the recruiting season). Taking this course helped me demystify the buzzword "quantum computing" so maybe you should too!
+
 ## Summer 2024
 
 ##### 21-355 Principles of Real Analysis I, *Tim Flaherty*
 
 This is a required course for the math minor and it makes sense since analysis is a fundamental area of math. Real analysis specifically lays the foundation for calculus, and this course covers topics like limits, continuity, and differentiation and integration of single-variable functions, with a bit of function limits at the end.
 
-It was really interesting to think about continuous math from a proof-based standpoint, since many results in calculus are non-obvious or even counterintuitive until you apply a rigious definition. For example, did you know that <a href='https://en.wikipedia.org/wiki/Thomae%27s_function'>this function</a> is continous at all irrational points by definition of continuity? When doing analysis problems, I liked to visualize a Desmos graphing calculator in my head and zoom in or out indefinitely to get intuition, and it was a whole lot of fun. 
+It was really interesting to think about continuous math from a proof-based standpoint, since many results in calculus are non-obvious or even counterintuitive until you establish and derive from a rigious definition. For example, did you know that <a href='https://en.wikipedia.org/wiki/Thomae%27s_function'>this function</a> is continous at all irrational points by definition of continuity? When doing analysis problems, I liked to visualize a Desmos graphing calculator in my head and zoom in or out indefinitely to get intuition, and it was a whole lot of fun. 
 
 The only unfortunate part was that this was a summer course, so it sort of rushed through derivation and integration, which I wish I had more time to understand in depth. Analysis is relatively unrelated to CS, but I still really enjoyed it - it felt a lot more elegant than abstract algebra or anything discrete I’ve studied (at least to me).
 
@@ -47,9 +69,9 @@ The entire project is split into 6 labs, and your compiler is supposed to suppor
 
 Did I mention that most teams write their compilers in OCaml? In my semester, the course recommended either OCaml or Rust. Funcitonal languages (and Rust which is multi-paradigm) with their algebraic datatype and recursion-friendly nature make them good at what writing a compiler requires. As someone who loves funcitonal languages, I was glad to witness how they are used in a large, real-world project. I am however also curious what it's like to write a compiler in, say C++. 
 
-What are some reasons why you should learn about compiler design? Personally I'll give three. First, compilers are the translator between how humans think and how machines think. I think knowledge at this level of abstraction is fundamental to a computer science student. Second, compilers is a great example of how different areas in computer science work together to create a great product. You have programming language theory in the frontend (parsing/typechecking), system programming in the backend (x86 generation), and finally algorithms for optimization (e.g. graph theory for register allocation). Lastly, very few other courses give you the freedom to design a system at this scale. Indirectly, you'll learn a lot about teamwork and how to evaluate and compare different solutions. 
+What are some reasons why you should study compiler design? Personally I'd give three. First, compilers are the translator between how humans think and how machines think. I think knowledge at this level of abstraction is fundamental to a computer science student. Second, compilers is a great example of how different areas in computer science work together to create a great product. You have programming language theory in the frontend (parsing/typechecking), system programming in the backend (x86 generation), and finally algorithms for optimization (e.g. graph theory for register allocation). Lastly, very few other courses give you the freedom to design a system at this scale. Indirectly, you'll learn a lot about teamwork and how to evaluate and compare different solutions. 
 
-If you've read this far and believe you want to take this class, here's a full disclosure: this class doesn't just have a huge amount of workload but its debugging experience can be grueling. The language specification has a million details, assembly language is naturally messy (seg faults!), and most importantly is what I call "higher-order debugging." You are trying to find a bug in your code that produces a bug in its output code, and it's TRICKY. Once I spent a week looking for a bug only to find out that my partner overwrote one register that was spare in earlier labs. 
+If you've read this far and believe you want to take this class, here's a full disclosure: this class doesn't just have a huge amount of work but its debugging experience can be grueling. The language specification has a million details, assembly language is naturally messy (seg faults!), and most importantly is what I call "higher-order debugging." You are trying to find a bug in your code that produces a bug in its output code, and it's TRICKY. Once I spent a week looking for a bug only to find out that my partner overwrote one register that was spare in earlier labs. 
 
 Overall, this class does a great job teaching you how a compiler works and it gave me confidence in my ability to implement a large codebase. It does still have room for improvement: I personally find the deduction for failed test cases too punishing, and I wish we had received more feedback on our design choices. Having written so much, I'll let you decide if this class is right for you - one way or another, it'll probably be a core memory of your time studying CS at CMU. 
 
@@ -93,7 +115,7 @@ If you find yourself interested in theory, I would probably recommend going stra
 
 ##### 21-301 Combinatorics, *Alan Frieze*
 
-You just have to take combinatorics if you're a CS student that's also doing math, right? I practically had no idea what combinatorics entails beyond counting before taking this class, so some of the topics like probabilistic and linear algebraic methods were quite eye-opening to me. We also covered other notable topics like Ramsey theory and Polya theory of counting. (Beware the content may vary depending on the instructor)
+You just have to take combinatorics if you're a CS student that's also doing math, right? I practically had no idea what combinatorics entails beyond counting before taking this class, so some of the topics like probabilistic and linear algebraic methods were quite eye-opening to me. We also covered other topics like Ramsey theory and Polya theory of counting. (Beware the content may vary depending on the instructor)
 
 I personally wish the class had traded some of its breadth for depth to give us more time to absorb the material. Most of the topics only consisted of one or two lectures so some of them felt rushed. I didn't get to use any of the advanced techniques I learned in this class in subsequent studies (except elementary Ramsey theory), but I did become much more confident in basic counting. 
 
@@ -128,6 +150,7 @@ I'm a person that would randomly think about philosophical questions so I thorou
 I need to mention that Prof. Smith is a fantastic philosophy teacher. He is knowledgable, kind, and knows how to guide students through puzzling concepts. Also, he has a master's degree in physics! During one class, he used the theory of relativity to illustrate how Bayesian epistemology suggests we can only increase our confidence in a claim by observing evidence. When a student asked, "Doesn't theory of relativity HAVE TO be true? What other theory explains everything so perfectly?" He immediately brought up three other theories consistent with the same observations. It was truly amazing to see that depth of knowledge from a philosophy professor.
 
 This class requires a non-trivial amount of reading and writing for a gen-ed but I thought it was both fun and rewarding. I highly recommend this class, especially with Prof. Smith. 
+<br>
 
 ## Fall 2022
 
@@ -154,6 +177,8 @@ To be totally honest, I missed most of the lectures since they started at 9 am a
 I took it because the wonderful Po-Shen Loh teaches it. Po-Shen Loh might be the most well-known CMU professor worldwide and it's for a good reason: it's hard not to be infected by his enthusiasm for math. This seminar prepares students for the Putnam competition, which is infamously challenging: it is scored out of 120 points and the median is often 0 or 1. Even if you're not sure about competition math, as long as you enjoy math, I highly recommend taking this class since it's a low-commitment way to interact with Po-Shen Loh and try some fun problems. 
 
 ##### 57-149 Basic Harmony I
+
+<br>
 
 ## Summer 2022
 
