@@ -37,6 +37,12 @@ Since we're dealing with a new model of computation, much of the course felt lik
 
 The math behind the theory is still interesting and I wish I had spent more time on this class (which I couldn't thanks to the recruiting season). Taking this course helped me demystify the buzzword "quantum computing" so maybe you should too!
 
+##### 15-591 Independent Study in Computer Science, *Marijn Heule*
+
+For my 15-354 CDM's final project, I chose to implement a <a href='https://github.com/ethan-ych/DPLL-Visualized'>DPLL SAT solver</a> and thought it was interesting. This led me to finding Marijn, whose work is in automated reasoning and especially SAT solving, when I was looking for some research experience. 
+
+You can view my poster <a href="{{ '/assets/pdf/poster.pdf' | relative_url }}">here</a>. One advice I can give on finding a professor to work with is don't be afraid of cold emailing and sending follow-ups. Many professors in SCS will be happy to discuss potential projects, given that they have advising capacity and your background aligns with their work. Most professors are extremely busy so follow-ups will help them notice your email.
+
 ## Summer 2024
 
 ##### 21-355 Principles of Real Analysis I, *Tim Flaherty*
@@ -61,13 +67,13 @@ Why is it still a class worth taking then? That's because it's very well-structu
 
 ##### 15-411 Compiler Design, *Jan Hoffmann*
 
-Compilers is so speical because you and a partner essentially need to write a C0 (a type-safe subset of C) to x86 compiler from scratch. As far as I know, very few, if any, compilers courses elsewhere require such a major accomplishment. On top of that, you're expected to implement common optimaztions, and you will be graded based on the output code's performance. 
+Compilers is so special because you and a partner essentially need to write a C0 (a type-safe subset of C) to x86 compiler from scratch. As far as I know, very few, if any, compilers courses elsewhere require such a major accomplishment. On top of that, you're expected to implement common optimizations, and you will be graded based on the output code's performance. 
 
-You will be designing and implementing every component of the compiler, including the lexer, parser, typechecker, intermediate representation translator, code generator, and finally the register allocator. You're allowed to use a generator for lexer and parser (which does NOT trivialize lexing and parsing, since you still need to write the rules), and everything else you only get a barebone starter code. 
+You will be designing and implementing every component of the compiler, including the lexer, parser, typechecker, intermediate representation translator, code generator, and finally the register allocator. You're allowed to use a generator for lexer and parser (which does NOT trivialize lexing and parsing, since you still need to write the rules), and everything else you only get a barebones starter code. 
 
-The entire project is split into 6 labs, and your compiler is supposed to support more language functionality incrementally: basic arithmetics, conditionals and loops, function calls, and eventually memory allocation. Lab 5 is optimization and Lab 6 is extra things you want to add. The lectures will teach you the theoretical knowledge you need for implementing each component, but practice often differs from theory, so you'll need to figure things out on the fly. 
+The entire project is split into 6 labs, and your compiler is supposed to support more language functionality incrementally: basic arithmetic, conditionals and loops, function calls, and eventually memory allocation. Lab 5 is optimization and Lab 6 is extra things you want to add. The lectures will teach you the theoretical knowledge you need for implementing each component, but practice often differs from theory, so you'll need to figure things out on the fly. 
 
-Did I mention that most teams write their compilers in OCaml? In my semester, the course recommended either OCaml or Rust. Funcitonal languages (and Rust which is multi-paradigm) with their algebraic datatype and recursion-friendly nature make them good at what writing a compiler requires. As someone who loves funcitonal languages, I was glad to witness how they are used in a large, real-world project. I am however also curious what it's like to write a compiler in, say C++. 
+Did I mention that most teams write their compilers in OCaml? In my semester, the course recommended either OCaml or Rust. Functional languages (and Rust which is multi-paradigm) with their algebraic datatype and recursion-friendly nature make them good at what writing a compiler requires. As someone who loves functional languages, I was glad to witness how they are used in a large, real-world project. I am however also curious what it's like to write a compiler in, say C++. 
 
 What are some reasons why you should study compiler design? Personally I'd give three. First, compilers are the translator between how humans think and how machines think. I think knowledge at this level of abstraction is fundamental to a computer science student. Second, compilers is a great example of how different areas in computer science work together to create a great product. You have programming language theory in the frontend (parsing/typechecking), system programming in the backend (x86 generation), and finally algorithms for optimization (e.g. graph theory for register allocation). Lastly, very few other courses give you the freedom to design a system at this scale. Indirectly, you'll learn a lot about teamwork and how to evaluate and compare different solutions. 
 
@@ -127,7 +133,7 @@ I chose this class for one of my gen-ed categories, and it ended up being one of
 
 This is a student taught course on type theory. It aims to expose you to a wide range of topics in type theory that are not necessarily correlated but are all intriguing. Quite a lot of the topics are borrowed from classes like 15-312 (algebraic datatype, continuation, etc.), 15-311 (Lean), compilers and category theory, while the other topics are less accessible (phantom types, dependent types). 
 
-I like how they cherry-picked the "cool" topics in type thoery, and I think this StuCo will help you gauge whether you want to further dive into programming language theory/logic before taking higher-level classes. Unfortunatelly I had a hard time focusing given that this course was at 7pm on Wednesdays, and for this reason I would love to sit back in some of the lectures in the future. By the way, the instructors are (almost always) current or former 150/312 TAs, so you will be in good hands. 
+I like how they cherry-picked the "cool" topics in type theory, and I think this StuCo will help you gauge whether you want to further dive into programming language theory/logic before taking higher-level classes. Unfortunately I had a hard time focusing given that this course was at 7pm on Wednesdays, and for this reason I would love to sit back in some of the lectures in the future. By the way, the instructors are (almost always) current or former 150/312 TAs, so you will be in good hands. 
 
 ## Spring 2023
 
@@ -147,7 +153,7 @@ I wasn't really interested in higher dimensional calculus and I didn't like the 
 
 I'm a person that would randomly think about philosophical questions so I thoroughly enjoyed the chance to study philosophy systematically. This class covered some classic questions in philosophy: how do we define morality? How do we obtain knowledge? What is the mind? I was able to scratch the itch by getting answers (or at least ideas; answers are rare in philosophy) to questions that I thought about but couldn't figure out on my own. 
 
-I need to mention that Prof. Smith is a fantastic philosophy teacher. He is knowledgable, kind, and knows how to guide students through puzzling concepts. Also, he has a master's degree in physics! During one class, he used the theory of relativity to illustrate how Bayesian epistemology suggests we can only increase our confidence in a claim by observing evidence. When a student asked, "Doesn't theory of relativity HAVE TO be true? What other theory explains everything so perfectly?" He immediately brought up three other theories consistent with the same observations. It was truly amazing to see that depth of knowledge from a philosophy professor.
+I need to mention that Prof. Smith is a fantastic philosophy teacher. He is knowledegable, kind, and knows how to guide students through puzzling concepts. Also, he has a master's degree in physics! During one class, he used the theory of relativity to illustrate how Bayesian epistemology suggests we can only increase our confidence in a claim by observing evidence. When a student asked, "Doesn't theory of relativity HAVE TO be true? What other theory explains everything so perfectly?" He immediately brought up three other theories consistent with the same observations. It was truly amazing to see that depth of knowledge from a philosophy professor.
 
 This class requires a non-trivial amount of reading and writing for a gen-ed but I thought it was both fun and rewarding. I highly recommend this class, especially with Prof. Smith. 
 <br>
