@@ -43,6 +43,14 @@ For my 15-354 CDM's final project, I chose to implement a <a href='https://githu
 
 You can view my poster <a href="{{ '/assets/pdf/poster.pdf' | relative_url }}">here</a>. One advice I can give on finding a professor to work with is don't be afraid of cold emailing and sending follow-ups. Many professors in SCS will be happy to discuss potential projects, given that they have advising capacity and your background aligns with their work. Most professors are extremely busy so follow-ups will help them notice your email.
 
+##### 54-191 Acting for Non-Majors, *Gab Cody*
+
+CMU has one of the best drama programs in the country, which is probably why Acting for Non-Majors has long been one of the most popular gen-eds. It’s practically impossible to get into this class unless you’re a senior. I’ve always liked to treat my gen-ed requirements as opportunities to explore new ideas, so this class had been on my radar for a while.
+
+It introduced me to what acting entails, or at least allowed me to form my own interpretation: working with your body and speech to create convincing and engaging portrayals of different scenarios. Throughout the semester, we went through various exercises (theater games, monologues, open scenes, etc.) to improve our on-stage reactions, and concluded the class by performing a scene from a classic play. The final performance was especially enjoyable, as it required analyzing characters and exploring styles that suited each of us.
+
+All in all, I developed an appreciation for good acting through this class. I do wish we had done more complete performances to apply what we’d learned.
+
 ## Summer 2024
 
 ##### 21-355 Principles of Real Analysis I, *Tim Flaherty*
