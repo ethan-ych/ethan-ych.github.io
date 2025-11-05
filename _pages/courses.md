@@ -15,6 +15,16 @@ This page contains (or at least will contain) every class I took at CMU, not jus
 
 *Disclaimer: These reviews are entirely based on my own experiences and opinions. Other students may have very different perspectives on the same courses, so take my thoughts as just one viewpoint among many.*
 
+## Spring 2025
+
+##### 15-311 Logic and Mechanized Reasoning, *Marijn Heule* 
+
+I did SAT solver research with Marijn so I decided to take a class to formally study the theory behind it. I believe not many people know about the field of formal methods so here's my one-line summary: formal methods studies how to represent problems with logical statements, and how to reason about such statements, often automatically. 
+
+Our logical systems are extremely expressive. Think about how we can already encode every problem in NP with propositional logic, since SAT is famously NP-complete. We can therefore exploit this and develop solvers for different logical systems (propositional, first-order, etc.), which will then allow us to solve various problems automatically. This matters because, our CS education teaches students to fear NP-hardness or even undecidability, but in practice we don't go home and cry when we encounter an NP-hard problem, thanks to these highly efficient solvers. 
+
+Now you know what formal methods is about, and this class teaches both the theory and practice of that, namely the syntax, semantics, and decision procedures of different logical systems, as well as the implementation of their solvers (it also teaches Lean!). Just like other PL/logic electives, this class probably won't help you that much with your career, but it's nonetheless cool to study. On a side note, the exams are often a time crunch and a lot of problems are hit or miss, so beware of that. 
+
 ## Fall 2024
 
 ##### 15-312 Foundations of Programming Languages, *Bob Harper*
@@ -23,7 +33,7 @@ As Karl said in my 150 lecture, this course doesn't just take you through the zo
 
 You will start from a small statically-typed, functional language with limited expressions, to bigger languages that can be dynamically-typed or imperative, and eventually a language that supports concurrency. Typically, half of the homework will be induction proof on language properties and the other half will be writing an interpreter. You will quite possibly be lost during the lectures at first but the homework will solidify your understanding.
 
-You should consider taking the course with Bob. Not only because he's a respected researcher in programming language theory (PLT) and wrote the textbook, but because of his unparalleled passion for the field. He has strong opinions on many mainstream languages and it was refreshing to hear his critque from a type-theoretic standpoint.
+You should consider taking the course with Bob. Not only because he's a respected researcher in programming language theory (PLT) and wrote the textbook, but because of his unparalleled passion for the field. He has strong opinions on many mainstream languages and it was refreshing to hear his critique from a type-theoretic standpoint.
 
 I do need to note that after taking this class, I still didn't feel like I had a comprehensive or intuitive understanding of PLT, mainly due to how abstract the course was (which also therefore felt disconnected to the real-world discussion on programming languages). I hope to combat this by reading a textbook and/or taking more classes in PL. 
 
@@ -57,7 +67,7 @@ All in all, I developed an appreciation for good acting through this class. I do
 
 This is a required course for the math minor and it makes sense since analysis is a fundamental area of math. Real analysis specifically lays the foundation for calculus, and this course covers topics like limits, continuity, and differentiation and integration of single-variable functions, with a bit of function limits at the end.
 
-It was really interesting to think about continuous math from a proof-based standpoint, since many results in calculus are non-obvious or even counterintuitive until you establish and derive from a rigious definition. For example, did you know that <a href='https://en.wikipedia.org/wiki/Thomae%27s_function'>this function</a> is continous at all irrational points by definition of continuity? When doing analysis problems, I liked to visualize a Desmos graphing calculator in my head and zoom in or out indefinitely to get intuition, and it was a whole lot of fun. 
+It was really interesting to think about continuous math from a proof-based standpoint, since many results in calculus are non-obvious or even counterintuitive until you establish and derive from a rigorous definition. For example, did you know that <a href='https://en.wikipedia.org/wiki/Thomae%27s_function'>this function</a> is continuous at all irrational points by definition of continuity? When doing analysis problems, I liked to visualize a Desmos graphing calculator in my head and zoom in or out indefinitely to get intuition, and it was a whole lot of fun. 
 
 The only unfortunate part was that this was a summer course, so it sort of rushed through derivation and integration, which I wish I had more time to understand in depth. Analysis is relatively unrelated to CS, but I still really enjoyed it - it felt a lot more elegant than abstract algebra or anything discrete I’ve studied (at least to me).
 
@@ -161,7 +171,7 @@ I wasn't really interested in higher dimensional calculus and I didn't like the 
 
 I'm a person that would randomly think about philosophical questions so I thoroughly enjoyed the chance to study philosophy systematically. This class covered some classic questions in philosophy: how do we define morality? How do we obtain knowledge? What is the mind? I was able to scratch the itch by getting answers (or at least ideas; answers are rare in philosophy) to questions that I thought about but couldn't figure out on my own. 
 
-I need to mention that Prof. Smith is a fantastic philosophy teacher. He is knowledegable, kind, and knows how to guide students through puzzling concepts. Also, he has a master's degree in physics! During one class, he used the theory of relativity to illustrate how Bayesian epistemology suggests we can only increase our confidence in a claim by observing evidence. When a student asked, "Doesn't theory of relativity HAVE TO be true? What other theory explains everything so perfectly?" He immediately brought up three other theories consistent with the same observations. It was truly amazing to see that depth of knowledge from a philosophy professor.
+I need to mention that Prof. Smith is a fantastic philosophy teacher. He is knowledgeable, kind, and knows how to guide students through puzzling concepts. Also, he has a master's degree in physics! During one class, he used the theory of relativity to illustrate how Bayesian epistemology suggests we can only increase our confidence in a claim by observing evidence. When a student asked, "Doesn't theory of relativity HAVE TO be true? What other theory explains everything so perfectly?" He immediately brought up three other theories consistent with the same observations. It was truly amazing to see that depth of knowledge from a philosophy professor.
 
 This class requires a non-trivial amount of reading and writing for a gen-ed but I thought it was both fun and rewarding. I highly recommend this class, especially with Prof. Smith. 
 <br>
