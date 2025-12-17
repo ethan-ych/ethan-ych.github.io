@@ -23,7 +23,17 @@ I did SAT solver research with Marijn so I decided to take a class to formally s
 
 Our logical systems are extremely expressive. Think about how we can already encode every problem in NP with propositional logic, since SAT is famously NP-complete. We can therefore exploit this and develop solvers for different logical systems (propositional, first-order, etc.), which will then allow us to solve various problems automatically. This matters because, our CS education teaches students to fear NP-hardness or even undecidability, but in practice we don't go home and cry when we encounter an NP-hard problem, thanks to these highly efficient solvers. 
 
-Now you know what formal methods is about, and this class teaches both the theory and practice of that, namely the syntax, semantics, and decision procedures of different logical systems, as well as the implementation of their solvers (it also teaches Lean!). Just like other PL/logic electives, this class probably won't help you that much with your career, but it's nonetheless cool to study. On a side note, the exams are often a time crunch and a lot of problems are hit or miss, so beware of that. 
+Now you know what formal methods is about, and this class teaches both the theory and practice of that, namely the syntax, semantics, and decision procedures of different logical systems, as well as the implementation of their solvers (it also teaches Lean!). Just like other PL/logic electives, this class probably won't help you that much with your career in the industry, but it's nonetheless cool to study. On a side note, the exams are often a time crunch and a lot of problems are hit or miss, so beware of that. 
+
+##### 15-451 Algorithm Design & Analysis, *David Woodruff & Daniel Anderson*
+
+It is quite ironic that as a theory person, I took 451 in my last semester of undergrad, and I really should've taken it earlier. 451 teaches many advanced algorithms and data structures, e.g. flow, linear programming, online algorithms, etc., and most importantly their analysis, i.e. how to prove their runtime and correctness. 
+
+451 is one of the best taught CS classes at CMU in my opinion. The scope of the course provides enough challenge but allows you to understand everything at the same time, and the infrastructure is robust, offering detailed lecture notes and practice problems/solutions for each topic and exam. Not to mention David and Daniel are great teachers that care about students' learning.
+
+My favorite aspect of the course is that it shows how mathematical insights lead to guarantees on algorithm correctness. Hashing and streaming are good examples. By randomly choosing a hash function from a suitable family, we can guarantee O(1) *worst-case* expected insertion time in a hash table; similarly, we can identify heavy hitters in a data stream with no false negatives using only constant space. Most algorithms in lower-level classes are fairly intuitive in why they work, but in 451 the cleverness of the algorithms lies in the analysis, which I really admire. 
+
+I TA’d this course the following semester and thoroughly enjoyed teaching the material. If you’re interested in theory, you should take it early, and even if you’re not, the course is well taught enough that there’s no need to delay it.
 
 ## Fall 2024
 
