@@ -17,6 +17,10 @@ This page contains (or at least will contain) every class I took at CMU, not jus
 
 ## Spring 2025
 
+##### 09-101 Introduction to Experimental Chemistry, *Linda Peteanu*
+
+This course, together with AP Chem credit, fulfills the SCS lab requirement. It required quite a bit of work, but it’s only half a semester long. If you enjoy chemistry and have AP credit, I’d recommend it.
+
 ##### 15-311 Logic and Mechanized Reasoning, *Marijn Heule* 
 
 I did SAT solver research with Marijn so I decided to take a class to formally study the theory behind it. I believe not many people know about the field of formal methods so here's my one-line summary: formal methods studies how to represent problems with logical statements, and how to reason about such statements, often automatically. 
@@ -34,6 +38,22 @@ It is quite ironic that as a theory person, I took 451 in my last semester of un
 My favorite aspect of the course is that it shows how mathematical insights lead to guarantees on algorithm correctness. Hashing and streaming are good examples. By randomly choosing a hash function from a suitable family, we can guarantee O(1) *worst-case* expected insertion time in a hash table; similarly, we can identify heavy hitters in a data stream with no false negatives using only constant space. Most algorithms in lower-level classes are fairly intuitive in why they work, but in 451 the cleverness of the algorithms lies in the analysis, which I really admire. 
 
 I TA’d this course the following semester and thoroughly enjoyed teaching the material. If you’re interested in theory, you should take it early, and even if you’re not, the course is well taught enough that there’s no need to delay it.
+
+##### 15-455 Undergraduate Complexity Theory, *Klaus Sutner*
+
+This course builds on the complexity theory material from 251. Complexity theory asks fundamental questions in computer science, mostly in the form of "what problems can be computed using this much resources?" The first half of the course largely revisits concepts from 251, while covering core results like the definition of nondeterministic Turing machines and the proof of the Cook–Levin Theorem. The second half introduces a range of new ideas, including space complexity, probabilistic complexity, and interactive proofs.
+
+Studying complexity theory allowed me to think about computation at a much more abstract level. Through reductions, you start to see that many problems are fundamentally equivalent, and working with Turing machines really drives home the idea that computation is ultimately just symbol manipulation. My main takeaway from this class felt almost philosophical, but maybe this is just because I took it with Klaus, whose background is in logic.
+
+There are many highly interesting topics and "big-brain" proofs in complexity theory, so this class will likely satisfy your intellectual curiosity. However, in my opnion, it also shows some of the less elegant sides of computer science. Turing machines come with a lot of messy technical details, and we lack a general framework for reasoning about interactions between complexity classes. Klaus pointed me to an interesting read on this topic, <a href='https://www.google.com/search?q=Von+Neumann’s+critique+of+automata+theory+and+logic+in+computer+science' style="font-style: italic;">Von Neumann’s critique of automata theory and logic in computer science</a>.
+
+This is definitely one of the most niche courses in CS, but it can be very rewarding for the right audience. I did find each lecture a bit too dense, often consisting of five or more non-trivial proofs or algorithms to understand on the spot.
+
+##### 21-373 Algebraic Structures, *Irina Gheorghiciuc*
+
+Abstract algebra is fundamental to math and has applications in (theoretical) CS, e.g. error-correcting codes. This was not an easy course for me: proofs are often highly non-obvious and rely on lemmas proven within or outside the course, especially in number theory. In fact, I was quite annoyed by the latter point, since I often found myself stuck on a proof only to realize that it relied on some lemma mentioned in class two weeks ago. Well, maybe that’s just how algebra is.
+
+We went through group theory, ring theory, and some field theory. I do think I gained some insights into math, since algebra studies the underlying structures of sets like invertible matrices and integers mod *n* and explains why they have certain properties. Beyond that, I can’t say I enjoyed learning the material that much.
 
 ## Fall 2024
 

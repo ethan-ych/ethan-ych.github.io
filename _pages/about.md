@@ -28,6 +28,6 @@ Welcome to my personal page! I'm currently an M.S. in Computer Science student a
 
 My academic interests lie in theoretical computer science (Algorithm/Complexity), while I also enjoy studying programming language theory, logic, and math on the side. This website is primarily a place for me to reflect on and write about courses I've taken in these areas, though I may branch out into other topics in the future. 
 
-Outside of academics and work, I enjoy bouldering and steeping/tasting various kinds of tea. If you're curious about my professional background, my LinkedIn profile, which can be found below, has a more complete overview than what’s shared here.
+Outside of academics and work, I enjoy bouldering and steeping/tasting various kinds of tea (my favorite tea is lightly roasted Taiwanese high mountain oolong). If you're curious about my professional background, my LinkedIn profile, which can be found below, has a more complete overview than what’s shared here.
 
 This site is currently under construction.
