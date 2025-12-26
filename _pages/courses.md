@@ -3,7 +3,7 @@ layout: page
 permalink: /courses/
 title: Course Reviews
 nav: true
-nav_order: 2
+nav_order: 3
 toc: 
     sidebar: left
     levels: 2
@@ -81,7 +81,7 @@ The math behind the theory is still interesting and I wish I had spent more time
 
 For my 15-354 CDM's final project, I chose to implement a <a href='https://github.com/ethan-ych/DPLL-Visualized'>DPLL SAT solver</a> and thought it was interesting. This led me to finding Marijn, whose work is in automated reasoning and especially SAT solving, when I was looking for some research experience. 
 
-You can view my poster <a href="{{ '/assets/pdf/poster.pdf' | relative_url }}">here</a>. One advice I can give on finding a professor to work with is don't be afraid of cold emailing and sending follow-ups. Many professors in SCS will be happy to discuss potential projects, given that they have advising capacity and your background aligns with their work. Most professors are extremely busy so follow-ups will help them notice your email.
+You can read about my project <a href="{{ '/projects/sat_solver/' | relative_url }}">here</a>. One advice I can give on finding a professor to work with is don't be afraid of cold emailing and sending follow-ups. Many professors in SCS will be happy to discuss potential projects, given that they have advising capacity and your background aligns with their work. Most professors are extremely busy so follow-ups will help them notice your email.
 
 ##### 54-191 Acting for Non-Majors, *Gab Cody*
 

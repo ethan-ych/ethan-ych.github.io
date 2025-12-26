@@ -49,8 +49,8 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: true
-bib_search: true
+posts_in_search: false
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -143,11 +143,11 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
-    output: true
+    output: false
   projects:
     output: true
 
@@ -171,6 +171,9 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  - _posts/
+  - _news/
+  - _books/
   - _pages/about_einstein.md
   - _pages/blog.md
   - _pages/books.md
@@ -178,7 +181,7 @@ exclude:
   - _pages/dropdown.md
   - _pages/news.md
   - _pages/profiles.md
-  - _pages/projects.md
+  # - _pages/projects.md
   - _pages/publications.md
   - _pages/repositories.md
   - _pages/teaching.md
