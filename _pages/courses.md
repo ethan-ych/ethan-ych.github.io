@@ -15,6 +15,12 @@ This page contains (or at least will contain) every class I took at CMU, not jus
 
 *Disclaimer: These reviews are entirely based on my own experiences and opinions. Other students may have very different perspectives on the same courses, so take my thoughts as just one viewpoint among many.*
 
+## Fall 2025
+
+<!-- ##### 10-601 Introduction to Machine Learning, *Matthew Gormly, Gordon Geoffrey*
+
+I took 11-485 Introduction to Deep Learning in undergrad and it wasn't a good experince. Therefore, I decided to "relearn" machine learning during my Master's program.  -->
+
 ## Spring 2025
 
 ##### 09-101 Introduction to Experimental Chemistry, *Linda Peteanu*
@@ -23,9 +29,9 @@ This course, together with AP Chem credit, fulfills the SCS lab requirement. It 
 
 ##### 15-311 Logic and Mechanized Reasoning, *Marijn Heule* 
 
-I did SAT solver research with Marijn so I decided to take a class to formally study the theory behind it. I believe not many people know about the field of formal methods so here's my one-line summary: formal methods studies how to represent problems with logical statements, and how to reason about such statements, often automatically. 
+I did SAT solver research with Marijn so I decided to take a class to formally study the theory behind it. I don't think many people know about the field of formal methods so here's my one-line summary: formal methods studies how to represent problems with logical statements, and how to reason about such statements, often automatically. 
 
-Our logical systems are extremely expressive. Think about how we can already encode every problem in NP with propositional logic, since SAT is famously NP-complete. We can therefore exploit this and develop solvers for different logical systems (propositional, first-order, etc.), which will then allow us to solve various problems automatically. This matters because, our CS education teaches students to fear NP-hardness or even undecidability, but in practice we don't go home and cry when we encounter an NP-hard problem, thanks to these highly efficient solvers. 
+Our logical systems are extremely expressive. Think about how we can already efficiently translate instances of every problem in NP into propositional formulas, since SAT is famously NP-complete. We can therefore exploit this and develop solvers for different logical systems (propositional, first-order, etc.), which will then allow us to solve various problems automatically. This matters because, our CS education teaches students to fear NP-hardness and even more so undecidability, but in practice we don't go home and cry when we encounter an NP-hard problem, thanks to these highly efficient solvers. 
 
 Now you know what formal methods is about, and this class teaches both the theory and practice of that, namely the syntax, semantics, and decision procedures of different logical systems, as well as the implementation of their solvers (it also teaches Lean!). Just like other PL/logic electives, this class probably won't help you that much with your career in the industry, but it's nonetheless cool to study. On a side note, the exams are often a time crunch and a lot of problems are hit or miss, so beware of that. 
 
@@ -35,7 +41,7 @@ It is quite ironic that as a theory person, I took 451 in my last semester of un
 
 451 is one of the best taught CS classes at CMU in my opinion. The scope of the course provides enough challenge but allows you to understand everything at the same time, and the infrastructure is robust, offering detailed lecture notes and practice problems/solutions for each topic and exam. Not to mention David and Daniel are great teachers that care about students' learning.
 
-My favorite aspect of the course is that it shows how mathematical insights lead to guarantees on algorithm correctness. Hashing and streaming are good examples. By randomly choosing a hash function from a suitable family, we can guarantee O(1) *worst-case* expected insertion time in a hash table; similarly, we can identify heavy hitters in a data stream with no false negatives using only constant space. Most algorithms in lower-level classes are fairly intuitive in why they work, but in 451 the cleverness of the algorithms lies in the analysis, which I really admire. 
+My favorite aspect of the course is that it shows how mathematical insights lead to guarantees on algorithm correctness. Hashing and streaming are good examples. By randomly choosing a hash function from a suitable family, we can guarantee O(1) *worst-case* expected insertion time in a hash table; on the other hand, with clever design, we can identify heavy hitters in a data stream with no false negatives using only constant space. Most algorithms in lower-level classes are fairly intuitive in why they work, but in 451 the cleverness of the algorithms lies in the analysis, which I really admire. 
 
 I TA’d this course the following semester and thoroughly enjoyed teaching the material. If you’re interested in theory, you should take it early, and even if you’re not, the course is well taught enough that there’s no need to delay it.
 
@@ -45,7 +51,7 @@ This course builds on the complexity theory material from 251. Complexity theory
 
 Studying complexity theory allowed me to think about computation at a much more abstract level. Through reductions, you start to see that many problems are fundamentally equivalent, and working with Turing machines really drives home the idea that computation is ultimately just symbol manipulation. My main takeaway from this class felt almost philosophical, but maybe this is just because I took it with Klaus, whose background is in logic.
 
-There are many highly interesting topics and "big-brain" proofs in complexity theory, so this class will likely satisfy your intellectual curiosity. However, in my opnion, it also shows some of the less elegant sides of computer science. Turing machines come with a lot of messy technical details, and we lack a general framework for reasoning about interactions between complexity classes. Klaus pointed me to an interesting read on this topic, <a href='https://www.google.com/search?q=Von+Neumann’s+critique+of+automata+theory+and+logic+in+computer+science' style="font-style: italic;">Von Neumann’s critique of automata theory and logic in computer science</a>.
+There are many highly interesting topics and "big-brain" proofs in complexity theory, so this class will likely satisfy your intellectual curiosity. However, in my opinion, it also shows some of the less elegant sides of computer science. Turing machines come with a lot of messy technical details, and we lack a general framework for reasoning about interactions between complexity classes. Klaus pointed me to an interesting read on this topic, <a href='https://www.google.com/search?q=Von+Neumann’s+critique+of+automata+theory+and+logic+in+computer+science' style="font-style: italic;">Von Neumann’s critique of automata theory and logic in computer science</a>.
 
 This is definitely one of the most niche courses in CS, but it can be very rewarding for the right audience. I did find each lecture a bit too dense, often consisting of five or more non-trivial proofs or algorithms to understand on the spot.
 
@@ -59,13 +65,13 @@ We went through group theory, ring theory, and some field theory. I do think I g
 
 ##### 15-312 Foundations of Programming Languages, *Bob Harper*
 
-As Karl said in my 150 lecture, this course doesn't just take you through the zoo of programming languages while pointing to one and saying "Look! That programming language has a long nose! Hahaha." 312 introduces you to the formalization of programming languages and how we can use it to prove properties of a given language. It also shows you how theoretical studies on types can illuminate language design. 
+As Karl said in my 150 lecture, this course doesn't just take you through the zoo of programming languages while pointing at one and saying "Look! That one has a long nose! So funny!" 312 introduces you to the formalization of programming languages and how we can use it to prove properties of a given language. It also shows you how theoretical studies on types can illuminate language design. 
 
 You will start from a small statically-typed, functional language with limited expressions, to bigger languages that can be dynamically-typed or imperative, and eventually a language that supports concurrency. Typically, half of the homework will be induction proof on language properties and the other half will be writing an interpreter. You will quite possibly be lost during the lectures at first but the homework will solidify your understanding.
 
 You should consider taking the course with Bob. Not only because he's a respected researcher in programming language theory (PLT) and wrote the textbook, but because of his unparalleled passion for the field. He has strong opinions on many mainstream languages and it was refreshing to hear his critique from a type-theoretic standpoint.
 
-I do need to note that after taking this class, I still didn't feel like I had a comprehensive or intuitive understanding of PLT, mainly due to how abstract the course was (which also therefore felt disconnected to the real-world discussion on programming languages). I hope to combat this by reading a textbook and/or taking more classes in PL. 
+I do need to note that after taking this class, I still didn't feel like I had a comprehensive or intuitive understanding of PLT, mainly due to how abstract the course is (which also therefore felt disconnected from the real-world discussion on programming languages). I hope to combat this by reading a textbook and/or taking more classes in PL. 
 
 ##### 15-459 Undergraduate Quantum Computation, *Ryan O'Donnell*
 
@@ -75,7 +81,7 @@ Keep in mind that this is a theory course so it abstracts away all the physical 
 
 Since we're dealing with a new model of computation, much of the course felt like learning the basic operations and memorizing the "tricks" that quantum algorithms pull to achieve the desired results. A typical introduction goes like this: we can get the result if we assume we can compute *A*, and we can compute *A* if we can do *B* by manipulating qubits, which requires a subroutine *C*... Maybe this is inevitable when teaching quantum computing, but I did have fewer aha moments compared to other theory classes. 
 
-The math behind the theory is still interesting and I wish I had spent more time on this class (which I couldn't thanks to the recruiting season). Taking this course helped me demystify the buzzword "quantum computing" so maybe you should too!
+The math behind the theory is still interesting and I wish I had spent more time on this class (which I couldn't, thanks to the recruiting season). Taking this course helped me demystify the buzzword "quantum computing" so that could be a reason why you choose to take it.
 
 ##### 15-591 Independent Study in Computer Science, *Marijn Heule*
 
@@ -107,11 +113,11 @@ The only unfortunate part was that this was a summer course, so it sort of rushe
 
 Probability and Computing (PnC) has long been one of CMU's star classes because of its connection between well, probability and computing. It however went through a major curriculum change between 2023 and 2024 and lost most of its coverage on the computing part - but overall it's definitely still a class worth taking. 
 
-I had to drop PnC in Spring '23 because I had too much on my plate. Back then, PnC introduced not just basic probability but also advanced tail bounds, randomized algorithms and even Markov Chains. Now it is essentially broken down into two classes 15259 and 15359, and 259 only consists of basic probability and some amount of statistics and system simulation. The workload became much, much more manageable but that also means you'll need to spend two semesters to witness the advanced stuff. 
+I had to drop PnC in Spring '23 because I had too much on my plate. Back then, PnC introduced not just basic probability but also advanced tail bounds, randomized algorithms and even Markov Chains. It has now been broken down into two classes 15259 and 15359, and 259 only consists of basic probability and some amount of statistics and system simulation. The workload became much, much more manageable but that also means you'll need to spend two semesters to witness the advanced stuff. 
 
 Why is it still a class worth taking then? That's because it's very well-structured and well-taught. The homework problems are carefully designed and selected, and both Mor and Weina are fantastic teachers that are able to explain complex concepts clearly. This class is more challenging than other probability electives offered in the stats department but you'll likely learn much more. 
 
-(PnC is also known for giving out Citadel-sponsored candies to students that answer questions, not necessarily correctly, in lecture. Clearly this is meant to encourage students to participate in class, but I noticed it ended up being the same few students answering most of the questions. Personally I feel like this might discourage other students that are not able to absorb materials as quickly.)
+(PnC is also known for giving out Citadel-sponsored candies to students that answer questions, not necessarily correctly, in lecture. Clearly this is meant to encourage students to participate in class, but I noticed it ended up being the same few students answering most of the questions. Personally I feel like this might discourage other students that are not able to absorb the material as quickly.)
 
 ##### 15-411 Compiler Design, *Jan Hoffmann*
 
@@ -133,11 +139,11 @@ Overall, this class does a great job teaching you how a compiler works and it ga
 
 ##### 33-115 Physics for Future Presidents, *Markus Deserno*
 
-This class was meant to be my filler class that required minimal effort and kept my full-time status while I was taking Compilers. Surprisingly, this class became one of my favorite non-technical classes at CMU (well, physics is technical, but this is more of a popular science course). The name of the course might sound confusing and here's the explanation: it aims to teach students the physics that a president would need to know, i.e. high level knowledge in areas relevant to the society. 
+This class was meant to be my filler class that required minimal effort and kept my full-time status while I was taking Compilers. Surprisingly, this class became one of my favorite non-technical classes at CMU (well, physics is technical, but this is more of a popular science course). The name of the course might sound confusing and here's the explanation: it aims to teach students the physics that a president would need to know, i.e. high-level knowledge in areas relevant to the society. 
 
 More specifically, here are some topics that this class covers: energy, nuclear science, waves, and climate change. Technicality-wise, it only goes as deep as needed for students to understand its application in real life, and while I already knew over half of the content, the other half was really intriguing. The most memorable part was the survey of basic nuclear science and its relevant history, starting from what is radioactivity to how the chain reaction was weaponized. 
 
-I must also mention that Prof. Deserno is an engaging lecturer and a professor that really cares about students' learning, and I was glad to be able to have some meaningful discussions with him. The bottom line is, unless you're already a physics enthusiast, you'll likely learn a lot of new things and have some of your misconception corrected - so take this class if you want to learn some fun physics without much extra workload!
+I must also mention that Prof. Deserno is an engaging lecturer and a professor that really cares about students' learning, and I was glad to be able to have some meaningful discussions with him. The bottom line is, unless you're already a physics enthusiast, you'll likely learn a lot of new things and have some of your misconceptions corrected - so take this class if you want to learn some fun physics without much extra workload!
 
 ##### 84-275 Comparative Politics
 
@@ -149,7 +155,7 @@ By far my least favorite class in undergrad. Don't get me wrong, it can be a cou
 
 This course aims to give you a comprehensive overview of the field of deep learning, by introducing notable architectures including CNN, RNN, and all the way to the celebrated transformer architecture. It covers every architecture in great detail and on top of that requires you to train your own models on given datasets, for tasks like image recognition or speech to text transcription. 
 
-My biggest issue with this course is that it advertises itself as an intro class. Yes, in theory, you don't need any deep learning, or even machine learning background to pass every quiz and finish every homework. However, without proper context or previous exposure, you can easily get lost given how dense each lecture is: almost every lecture's slide deck has 100+ pages in pdf format. Much of the motivation and crucial concepts are quickly brushed through, and the sheer amount of material makes it hard to recover once you fall behind.
+My biggest issue with this course is that it advertises itself as an intro class. Yes, in theory, you don't need any deep learning, or even machine learning background to pass every quiz and finish every homework. However, without proper context or previous exposure, you can easily get lost given how dense each lecture is. Much of the motivation and crucial concepts are quickly brushed over, and the sheer amount of material makes it hard to recover once you fall behind.
 
 Something else that bothers me is the disconnection between the lecture and the homework. While the lecture explains the underlying theory, the homework requires you to build and train your own model with PyTorch. I get that the idea of introducing both theory and hands-on experience is appealing, but it also means that students have to spend a huge amount of time outside of class to build the required skillset. This is not even accounting for the time-consuming and uncertain nature of model training. 
 
@@ -161,11 +167,11 @@ After deciding to get involved in CS theory, I found this class from the list of
 
 CDM covers topics like models of computation (primitive recursion/register machine), advanced automata theory, and different mathematical concepts, including first-order logic and abstract algebra, from a computational standpoint. You would be able to learn some cool computational facts and how various fields of mathematics play a role in the world of computation. 
 
-Klaus has been teaching theory at CMU for a long time and CDM is his signature class. He is extremely knowledgeable and humorous in his own way so I really enjoyed the lectures. His teaching style is kind of a hit or miss though since I've heard people reacting differently to his lectures. 
+Klaus has been teaching theory at CMU for a long time and CDM is his signature class. He is extremely knowledgeable and humorous in his own way so I really enjoyed the lectures. His teaching style is kind of hit or miss though since I've heard people reacting differently to his lectures. 
 
-On to why I said you should think twice before picking this class as your first non-introductory theory class. The biggest reason is this class is more of a "introducing topics Klaus finds amusing" class: it deviates quite a lot from the mainstream theory topics. Check out other CMU theory professors' research interests to get an idea of the active research areas, and you will likely find very little overlap with what CDM covers. Furthermore, as described earlier, Klaus frequently touches upon other mathematical fields like logic, algebra, and even analysis, and I was definitely not equipped with proper knowledge to fully appreciate the material. 
+On to why I said you should think twice before picking this class as your first non-introductory theory class. The biggest reason is this class is more of a "introducing topics Klaus finds amusing" class: it deviates quite a lot from the mainstream theory topics. Check out <a href='http://theory.cs.cmu.edu/'>other CMU theory professors'</a> research interests to get an idea of the active research areas, and you will likely find very little overlap with what CDM covers. Furthermore, as described earlier, Klaus frequently touches upon other mathematical fields like logic, algebra, and even analysis, and I was definitely not equipped with proper knowledge to fully appreciate the material. 
 
-If you find yourself interested in theory, I would probably recommend going straight to 451 and 455 and then start taking grad level theory classes. However, if you're mathematically mature and wish to explore the less beaten path in theory, CDM won't disappoint you. 
+If you find yourself interested in CS theory, I would probably recommend going straight to 451 and 455 and then start taking grad level theory classes. However, if you're mathematically mature and wish to explore the less beaten path, CDM won't disappoint you. 
 
 ##### 21-301 Combinatorics, *Alan Frieze*
 
@@ -179,9 +185,7 @@ I chose this class for one of my gen-ed categories, and it ended up being one of
 
 ##### 98-317 Student Taught Courses (StuCo): Hype for Types, *Runming Li, Sonya Simkin, Yosef Alsuhaibani & Ari (Zach) Battleman*
 
-This is a student taught course on type theory. It aims to expose you to a wide range of topics in type theory that are not necessarily correlated but are all intriguing. Quite a lot of the topics are borrowed from classes like 15-312 (algebraic datatype, continuation, etc.), 15-311 (Lean), compilers and category theory, while the other topics are less accessible (phantom types, dependent types). 
-
-I like how they cherry-picked the "cool" topics in type theory, and I think this StuCo will help you gauge whether you want to further dive into programming language theory/logic before taking higher-level classes. Unfortunately I had a hard time focusing given that this course was at 7pm on Wednesdays, and for this reason I would love to sit back in some of the lectures in the future. By the way, the instructors are (almost always) current or former 150/312 TAs, so you will be in good hands. 
+This is a student taught course on type theory. It aims to expose you to a wide range of topics in type theory that are not necessarily correlated but are all intriguing. This StuCo will help you gauge whether you want to further dive into programming language theory/logic before taking higher-level classes. For example, you'll learn about algebraic datatype, continuation, etc. from 15-312, Lean from 15-311, and content from compilers and category theory. Unfortunately I had a hard time focusing given that this course was at 7 pm on Wednesdays, and for this reason I would love to sit back in some of the lectures in the future. By the way, the instructors are current or former 150/312 TAs, so you will be in good hands. 
 
 ## Spring 2023
 
@@ -193,7 +197,7 @@ I took this class because I thought I would be interested in computer security b
 
 ##### 21-266 Vector Calculus for Computer Scientists, *Clive Newstead*
 
-I wasn't really interested in higher dimensional calculus and I didn't like the fact that this class was calculation-based and hence required proficiency on top of just understanding. Not really its fault for being the class that comes after Calc 2, but I would've chosen the easier counterpart 21-259 to fulfill the requirement if I could choose again. 
+I wasn't really interested in higher dimensional calculus and I didn't like the fact that this class was calculation-based and hence required proficiency on top of just understanding. Not really its fault for being the class that comes after Calc 2, but I would choose the easier counterpart 21-259 to fulfill the requirement if I could choose again. 
 
 ##### 76-270 Writing for the Professions
 
@@ -201,7 +205,7 @@ I wasn't really interested in higher dimensional calculus and I didn't like the 
 
 I'm a person that would randomly think about philosophical questions so I thoroughly enjoyed the chance to study philosophy systematically. This class covered some classic questions in philosophy: how do we define morality? How do we obtain knowledge? What is the mind? I was able to scratch the itch by getting answers (or at least ideas; answers are rare in philosophy) to questions that I thought about but couldn't figure out on my own. 
 
-I need to mention that Prof. Smith is a fantastic philosophy teacher. He is knowledgeable, kind, and knows how to guide students through puzzling concepts. Also, he has a master's degree in physics! During one class, he used the theory of relativity to illustrate how Bayesian epistemology suggests we can only increase our confidence in a claim by observing evidence. When a student asked, "Doesn't theory of relativity HAVE TO be true? What other theory explains everything so perfectly?" He immediately brought up three other theories consistent with the same observations. It was truly amazing to see that depth of knowledge from a philosophy professor.
+I need to mention that Prof. Smith is a fantastic philosophy teacher. He is knowledgeable, kind, and knows how to guide students through puzzling concepts. Also, he has a master's degree in physics! During one class, he used the theory of relativity to illustrate how Bayesian epistemology suggests we can only increase our confidence in a claim by observing evidence. When a student asked, "Doesn't the theory of relativity HAVE TO be true? What other theory explains everything so perfectly?" He immediately brought up three other theories that are consistent with the same observations. It was truly amazing to see that depth of knowledge from a philosophy professor.
 
 This class requires a non-trivial amount of reading and writing for a gen-ed but I thought it was both fun and rewarding. I highly recommend this class, especially with Prof. Smith. 
 <br>
@@ -210,13 +214,17 @@ This class requires a non-trivial amount of reading and writing for a gen-ed but
 
 ##### 15-210 Parallel and Sequential Data Structures and Algorithms, *Frank Pfenning & Charlie Garrod*
 
-Quite possibly my least favorite core class. I've been trying to figure out why I disliked the course, and one answer I could come up with is the presence of parallelism. First of all, for a first data structures and algorithms class, having to think about parallel complexity blurs the focus. Furthermore, the language of choice is Standard ML, likely because of parallelism. As much as I love functional programming, I don't believe a functional language is a good choice for most algorithm problems, and pseudocode in functional was comparatively unintuitive to me. 
+Quite possibly my least favorite core class. I've been trying to figure out why I disliked the course, and one answer I could come up with is the presence of parallelism. 
 
-I had a much better experience in the subsequent algorithm class 15-451. I heard rumors that they are reevaluating the curriculum in the near future and personally I think 210 could use some changes.
+Designing parallel algorithms requires a very different mindset from designing sequential ones. You'll often need specific techniques or extra insights so that computation can be divided among workers, while there often exist straightforward sequential solutions. I'm not saying studying parallel algorithms isn't inspiring on its own, but for the first (serious) data structures and algorithms class, this makes it harder for students to develop a general intuition for algorithm design and analysis. 
+
+Furthermore, the language of choice was Standard ML because of its parallelism-friendly nature. As much as I love functional programming, I don't believe a functional language is a good choice for most algorithm problems, and pseudocode in functional is way less intuitive to me. 
+
+I had a much better experience in the subsequent algorithm class 15-451. I heard that some professors are working on changing how 210 is taught (e.g. incorporating C++), and I look forward to a course design that better supports students' learning. 
 
 ##### 15-251 Great Theoretical Ideas in Computer Science, *Anıl Ada*
 
->Computer science is no more about computers than astronomy is about telescopes. -- <cite>Edsger Dijkstra</cite>
+"Computer science is no more about computers than astronomy is about telescopes." -- <cite>Edsger Dijkstra</cite>
 
 This quote is both the motivation and the most important takeaway of 251. Computer science isn't really about digital computers or programming - it's about understanding how we can systematically and mechanically process information to solve problems. Digital computers are just one tool for carrying out these processes, and programming is one way to describe them. 251 introduces the basics of decidability, complexity, and some algorithms of theoretical interest in a challenging but manageable way, making it one of my favorite core classes.
 
@@ -250,7 +258,7 @@ This is a good course in the sense that it builds you a very solid foundation in
 
 ##### 15-150 Principles of Functional Programming, *Michael Erdmann &  Karl Crary*
 
-It is not an overstatement to say that this course decided my progression at CMU. Before taking this course, I had never heard of functional programming, but I was instantly captured by its elegance and its unique interpretation of computation. This was the first course at CMU that really challenged me intellectually, but as I got more used to "thinking functionally," I became more comfortable with the materials. 
+It is not an overstatement to say that this course decided my progression at CMU. Before taking this course, I had never heard of functional programming, but I was instantly captured by its elegance and its unique interpretation of computation. This was the first course at CMU that really challenged me intellectually, but as I got more used to "thinking functionally," I became more comfortable with the material. 
 
 I ended up TAing this course twice and was subsequently fed into the "programming language (PL) pipeline" as I took 15-312 and compilers. Let me take the chance to share my two cents on functional programming (FP): it's not the solution to everything and I don't believe we should ditch imperative and embrace functional. FP however excels in certain areas like safety and expressiveness (strong type systems/higher order functions), so perhaps a mixture of the two is the answer. 
 
@@ -265,8 +273,8 @@ I started out as an ECE major when I entered CMU which is why I took this class.
 
 ##### 21-122 Integration and Approximation, *Lihan Wang*
 
-I had AP credit for Calc 2 so I didn't need to take this class. I only took it because my freshman CIT advisor wrote to us in an email and I quote 
->A word on calculus: it is the fundamental core to engineering (you could say it’s *integral* to engineering...womp womp).
+I had AP credit for Calc 2 so I didn't need to take this class. I only took it because my freshman CIT advisor wrote to us in an email and I quote, 
+"A word on calculus: it is the fundamental core to engineering (you could say it’s *integral* to engineering...womp womp)."
 
 Haha... Throughout the class I didn't feel like I needed a refresher on the content. Therefore I would suggest not repeating a class you have credit for unless you have quite literally forgotten everything. 
 

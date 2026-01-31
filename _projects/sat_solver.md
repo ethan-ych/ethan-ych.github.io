@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "SAT solver heuristic: directed Ramsey numbers"
+title: "SAT Solver Heuristic: Directed Ramsey Numbers"
 description: This research project explores a new heuristic to speed up SAT solvers on problems with special structures, using directed Ramsey numbers as a case study. 
 img: assets/img/sat_solver.png
 importance: 2
