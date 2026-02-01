@@ -29,7 +29,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/lfpl_plus/";
             },},{id: "projects-sat-solver-heuristic-directed-ramsey-numbers",
-          title: 'SAT solver heuristic: directed Ramsey numbers',
+          title: 'SAT Solver Heuristic: Directed Ramsey Numbers',
           description: "This research project explores a new heuristic to speed up SAT solvers on problems with special structures, using directed Ramsey numbers as a case study.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/sat_solver/";
