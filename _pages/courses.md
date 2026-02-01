@@ -17,7 +17,15 @@ This page contains (or at least will contain) every class I took at CMU, not jus
 
 ## Fall 2025
 
-<!-- ##### 10-601 Introduction to Machine Learning, *Matthew Gormly, Gordon Geoffrey*
+##### 10-601 Introduction to Machine Learning, *Matthew Gormley & Gordon Geoffrey*
+
+##### 15-645 Database Systems, *Andrew Pavlo*
+
+##### 15-714 Resource Aware Programming Languages, *Jan Hoffmann*
+
+To be populated...
+
+<!-- ##### 10-601 Introduction to Machine Learning, *Matthew Gormley, Gordon Geoffrey*
 
 I took 11-485 Introduction to Deep Learning in undergrad and it wasn't a good experince. Therefore, I decided to "relearn" machine learning during my Master's program.  -->
 
@@ -97,6 +105,10 @@ It introduced me to what acting entails, or at least allowed me to form my own i
 
 All in all, I developed an appreciation for good acting through this class. I do wish we had done more complete performances to apply what we’d learned.
 
+##### 98-374 Student Taught Courses (StuCo): Steep by Steep: Investeagation into Tea Culture, *Lydia Yang & Samuel Chen & Alisa Lo*
+
+This is a great opportunity to learn about tea and different countries' tea cultures. The best part is that you get to try the tea introduced in class that day!
+
 ## Summer 2024
 
 ##### 21-355 Principles of Real Analysis I, *Tim Flaherty*
@@ -111,7 +123,7 @@ The only unfortunate part was that this was a summer course, so it sort of rushe
 
 ##### 15-259 Probability and Computing, *Mor Harchol-Balter & Weina Wang*
 
-Probability and Computing (PnC) has long been one of CMU's star classes because of its connection between well, probability and computing. It however went through a major curriculum change between 2023 and 2024 and lost most of its coverage on the computing part - but overall it's definitely still a class worth taking. 
+Probability and Computing (PnC) has long been one of CMU's star classes because of its connection between well, probability and computing. However, it went through a major curriculum change between 2023 and 2024 and lost most of its coverage on the computing part - but overall it's definitely still a class worth taking. 
 
 I had to drop PnC in Spring '23 because I had too much on my plate. Back then, PnC introduced not just basic probability but also advanced tail bounds, randomized algorithms and even Markov Chains. It has now been broken down into two classes 15259 and 15359, and 259 only consists of basic probability and some amount of statistics and system simulation. The workload became much, much more manageable but that also means you'll need to spend two semesters to witness the advanced stuff. 
 
