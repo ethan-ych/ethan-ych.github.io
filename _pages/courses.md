@@ -107,7 +107,7 @@ All in all, I developed an appreciation for good acting through this class. I do
 
 ##### 98-374 Student Taught Courses (StuCo): Steep by Steep: Investeagation into Tea Culture, *Lydia Yang & Samuel Chen & Alisa Lo*
 
-This is a great opportunity to learn about tea and different countries' tea cultures. The best part is that you get to try the tea introduced in class that day!
+This is a great opportunity to learn about tea and different countries' tea cultures. The best part is that you get to try the tea introduced in class that day! Also, not to brag but I won the final <a href="{{ '/assets/img/teaco.jpg' | relative_url }}">Kahoot</a>.
 
 ## Summer 2024
 
