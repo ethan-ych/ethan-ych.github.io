@@ -15,6 +15,22 @@ This page contains (or at least will contain) every class I took at CMU, not jus
 
 *Disclaimer: These reviews are entirely based on my own experiences and opinions. Other students may have very different perspectives on the same courses, so take my thoughts as just one viewpoint among many.*
 
+## Spring 2026
+
+##### **10\-623 Generative AI**
+###### *Matthew Gormley, Aran Nayebi*
+
+##### **15\-640 Distributed Systems**
+###### *Mahadev Satyanarayanan, Padmanabhan Pillai*
+
+##### **15\-756 Randomized Algorithms**
+###### *William Kuszmaul*
+
+##### **15\-852 Parallel and Concurrent Algorithms**
+###### *Guy Blelloch* 
+
+To be populated...
+
 ## Fall 2025
 
 ##### **10\-601 Introduction to Machine Learning**
