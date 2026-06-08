@@ -18,7 +18,7 @@ This page contains (or at least will contain) every class I took at CMU, not jus
 ## Spring 2026
 
 ##### **10\-623 Generative AI**
-###### *Matthew Gormley, Aran Nayebi*
+###### *Matt Gormley, Aran Nayebi*
 
 ##### **15\-640 Distributed Systems**
 ###### *Mahadev Satyanarayanan, Padmanabhan Pillai*
@@ -34,20 +34,37 @@ To be populated...
 ## Fall 2025
 
 ##### **10\-601 Introduction to Machine Learning**
-###### *Matthew Gormley, Gordon Geoffrey*
+###### *Matt Gormley, Geoffrey Gordon*
+
+I took 11-485 Introduction to Deep Learning in undergrad and it wasn't a good experience. Therefore, I decided to start from scratch and "relearn" ML. This course is a fairly standard introductory course to ML, starting from the good old machine learning techniques like decision trees to modern topics like transformers. 
+
+Overall I think it's a decent introduction to ML since it ramps up from older, simpler techniques to the newer, more confusing paradigm. I do appreciate how they kept the course updated by including recent development with transformer and deep reinforcement learning, however, they also traded depth for breadth, and I found it hard to develop intuition for topics like deep RL and learning theory with limited time.
+
+Another aspect that could be improved is helping students see the big picture of ML. The course did try to do this - in fact a slide titled "ML Big Picture" appeared throughout the curriculum. Nonetheless, I still found the order of topics genuinely puzzling at times. MLE/MAP, which should serve as the backbone of most models in the course, is introduced after classification, regression, and even neural networks, making it hard to appreciate its significance when you finally encounter it. And after covering transformers and deep RL, the course pivots to recommender systems and boosting, which felt like we were going back in time with little explanation as to why. As a consequence, many topics feel standalone instead of fitting into a coherent trajectory.
 
 ##### **15\-645 Database Systems**
-###### *Andrew Pavlo*
+###### *Andy Pavlo*
+
+Databases is one of the most popular open-access CMU courses due to its remarkable design and Andy's one-of-a-kind personality. As someone who took the course on campus, I can confirm it fully deserves its reputation on both fronts (among many of the wild things Andy did, he hired a course DJ for us).
+
+I used to treat a database management system (DBMS) as a black box and I'm sure many engineers still do. It's hard to imagine how a query that seems to require a literal linear scan across billions of rows can finish executing within milliseconds. Well, it's not black magic - this course details all the effort poured into designing and building an efficient DBMS at every layer (the disk manager, buffer pool manager, query optimizer, and execution engine). It also showed me that database architecture is far from a solved problem, and many researchers and startups are trying to build or contribute to the next big DBMS. 
+
+Finding out how a DBMS is actually built is genuinely intriguing, though the implementation gets incredibly messy in practice — especially when concurrency control comes into the picture. The course also uses modern C++, which adds another layer of complexity for those without prior experience. If you are naturally drawn to low-level optimization and writing fast code, you'll be very at home.
+
+There was something I didn't appreciate during the semester: I had assumed that all the data structures and algorithms used in a DBMS were heuristic-based with no theoretical guarantees, which I found deeply unsatisfying as a theory student. Interestingly, the two algorithm courses I took the following semester — Randomized Algorithms and Parallel & Concurrent Algorithms — proved me wrong. I had the opportunity to study Cuckoo hashing, B-trees, and lock-free algorithms in a theoretical setting and discovered that serious researchers work on these problems rigorously. I really wish I had known this earlier; it might have changed how I engaged with the course.
+
+<!-- One reason I was indifferent about this course is I had thought all the data structures and algorithms used in a DBMS were all heuristic based and provided no theoretical guarantees, which I could hardly agree with as a theory student. Nonetheless, interestingly and coincidentally, the two algorithm courses I took in the subsequent semester - Randomized Algorithms and Parallel & Concurrent Algorithms - showed me that there are actually numerous theorists studying DBMS techniques rigorously. I had the opportunity to study Cuckoo hashing, B-tree and lock-free algorithms in a theoretical setting, and I really wish I knew about this earlier.  -->
+
+<!-- mindless implementation, concurrency and modern C++ is annoying, no theoretical gauantee -->
 
 ##### **15\-714 Resource Aware Programming Languages**
 ###### *Jan Hoffmann*
 
-To be populated...
+It is probably hard to imagine exactly what is taught in this course just from its name. Indeed, Jan's research on static resource analysis is highly specific, even within the already niche field of programming language theory. However, the course is a beautiful demonstration of how a type system can do far more than just preventing trivial bugs — it can go so far as to automatically bound the worst-case runtime of a complicated algorithm.
 
-<!-- ##### **10\-601 Introduction to Machine Learning**
-###### *Matthew Gormley, Gordon Geoffrey*
+The course starts with foundational concepts, including amortized analysis and the statics and dynamics of programming languages, before moving on to bounded languages that naturally capture polynomial-time complexity. Here, you start seeing how restricting a language's expressivity allows you to cleanly bound its execution time (see my <a href="{{ '/projects/lfpl_plus/' | relative_url }}">course project</a> for more insight). All of this builds up to Automatic Amortized Resource Analysis (AARA). Instead of limiting expressivity, AARA embeds potential functions directly into the type system to track resource metrics, generating a system of linear constraints that an off-the-shelf Linear Programming (LP) solver can automatically optimize.
 
-I took 11-485 Introduction to Deep Learning in undergrad and it wasn't a good experince. Therefore, I decided to "relearn" machine learning during my Master's program.  -->
+Naturally, analyzing the precise runtime of an arbitrary program is an undecidable problem, so this approach does come with inherent limitations. However, it finds applications in resource-critical scenarios like writing a cryptographic contract. In my opinion, this field of study is fascinating because it is deeply grounded in rigorous, abstract PL theory, yet gives rise to tools that are practically deployable and address one of the most fundamental questions in CS. For this reason, if I ever decide to pursue a PhD, this is easily one of the top areas I would look into. (To try this tool yourself, check out <a href='https://www.raml.co/'>RaML</a>.)
 
 ## Spring 2025
 
@@ -206,7 +223,9 @@ My biggest issue with this course is that it advertises itself as an intro class
 
 Something else that bothers me is the disconnection between the lecture and the homework. While the lecture explains the underlying theory, the homework requires you to build and train your own model with PyTorch. I get that the idea of introducing both theory and hands-on experience is appealing, but it also means that students have to spend a huge amount of time outside of class to build the required skillset. This is not even accounting for the time-consuming and uncertain nature of model training. 
 
-In conclusion, I believe you can learn a tremendous amount if you have the proper background and are willing to put in the time, but otherwise, this course can easily be overwhelming and bring distress. Because of this class, I stayed away from ML for the rest of my undergrad.
+In conclusion, I believe you can learn a tremendous amount if you have the proper background and are willing to put in the time, but otherwise, this course can easily be overwhelming and bring distress. Because of this class, I stayed away from ML for a while, until I came back with 10-601 in my last year.
+
+##### **15\-195 Competition Programming I**
 
 ##### **15\-354 Computational Discrete Math**
 ###### *Klaus Sutner*

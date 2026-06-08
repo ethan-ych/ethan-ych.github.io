@@ -17,5 +17,10 @@ services:
       - 35729:35729
     volumes:
       - .:/srv/jekyll
+      - jekyll_plugins:/srv/jekyll/_plugins
     environment:
       - JEKYLL_ENV=development
+      - RUBYOPT=--parser=parse.y
+
+volumes:
+  jekyll_plugins:
